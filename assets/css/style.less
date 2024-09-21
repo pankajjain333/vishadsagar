@@ -1,0 +1,252 @@
+@import 'mixin.less';
+@import 'variables.less';
+
+body {
+    background-color: @body-bg;
+    overflow-x: hidden ;
+    background-image: url('../../assets/img/Jain_Prateek_Chihna.svg');
+    background-repeat: repeat-x;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: 20% auto;
+}
+
+.main-container {
+    background-color: @container-bg;
+    padding: 0;
+    box-shadow: 0 5px 27px 4px #ccc;
+}
+
+.bg-dark {
+    background-color: @bg-dark !important;
+}
+.m-0 {
+    margin: 0;
+}
+.p-r-0 {
+    padding-right: 0
+}
+.p-l-5 {
+    padding-left: 5px;
+}
+.fa-file-pdf-o {
+  color: @bg-dark;
+  cursor: pointer;
+  position: absolute;
+   right: 8px;
+   top: 17px;
+}
+
+.btn-primary {
+  background-color: @bg-dark;
+  border: 0px;
+  cursor: pointer;
+  &:hover {
+    background-color: #EC9D68;
+  }
+}
+
+.carousel-container {
+    background-color: @container-bg;
+}
+
+.carousel-item {
+    height: 250px;
+    min-height: 200px;
+    background: no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.header-bg {
+    height: 200px;
+    background-image: url('../../assets/img/header.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    span {
+        bottom: 30px;
+        display: inline-block;
+        font-size: 29px;
+        left: 0;
+        margin: 0 auto;
+        position: absolute;
+        right: -73px;
+        text-align: center;
+        text-shadow: 1px 1px 1px #000;
+        color: @bg-dark;
+    }
+}
+header {
+    background-color: @bg-dark;
+    .navbar {
+        padding: 0.5rem 0rem;
+        .navbar-nav {
+            li {
+                background-color: #db8055;
+                .border-radius(5px);
+                border-radius: 5px;
+                margin: 0 4px;
+                .nav-link {
+                    color: @bg-dark;
+                }
+            }
+
+        }
+    }
+
+}
+
+.youtube-vedio {
+    position: relative;
+    .saujanya-se {
+        bottom: 0;
+        color: #fff;
+        display: inline-block;
+        font-size: 10px;
+        height: 4px;
+        left: 0;
+        margin: 0 auto;
+        position: absolute;
+        right: 0;
+        text-align: center;
+        top: 0;
+        width: 75%;
+        z-index: 999;
+    }
+}
+
+.marquee {
+    overflow: hidden;
+    padding: 7px 20px;
+    color: #fff;
+    height: 40px;
+    ul {
+        margin: 0;
+        padding: 0;
+        li {
+            display: inline;
+            margin: 0 30px;
+        }
+    }
+    &.inner-marquee {
+        background-color: #6f0401;
+    }
+}
+
+.marquee-msg {
+    overflow: hidden;
+    height: 200px;
+}
+
+.devider {
+    background-image: url('../../assets/img/line.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    height: 25px;
+}
+.list {
+    margin: 0;
+    padding: 0 15px;
+}
+
+.developed-by {
+    bottom: 3px;
+    color: #4d0402;
+    font-size: 10px;
+    position: absolute;
+    right: 13px;
+    a {
+        text-decoration: none;
+        color: #4d0402;
+        font-weight: bold;
+        &:hover {
+            text-decoration: underline;
+            color: #fff;
+        }
+    }
+}
+
+
+.slick-slide {
+  height: auto !important;
+  margin: 0px 20px;
+}
+.slick-slide img {
+  width: auto;
+  height: 300px;
+}
+.slick-prev:before,
+.slick-next:before {
+  color: black;
+}
+.slick-slide {
+  transition: all ease-in-out .3s;
+  opacity: .2;
+}
+
+.slick-active {
+  opacity: .5;
+}
+.slick-current {
+  opacity: 1;
+}
+.slick-prev {
+  position: absolute;
+  bottom: 0px;
+  background-color: @bg-dark;
+  color: #fff;
+  border: 0px;
+  cursor: pointer;
+}
+.slick-next {
+  position: absolute;
+  right: 0;
+  background-color: @bg-dark;
+  color: #fff;
+  border: 0px;
+cursor: pointer;
+}
+.slick-dots {
+  text-align: center;
+  list-style: none;
+  margin-top: 4px;
+   li {
+     display: inline-block;
+     button {
+       .border-radius(50%);
+       background-color: @bg-dark;
+       color: #fff;
+       border: 0px;
+       margin: 0 2px;
+       cursor: pointer;
+     }
+   }
+}
+
+footer {
+    background-color: @bg-dark;
+    position: relative;
+    .footer-nav {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        text-align: center;
+        li {
+            display: inline-block;
+            margin: 0;
+            color: #fff;
+            a {
+                color: #fff;
+                text-decoration: none;
+                &:hover {
+                    text-decoration: underline;
+                }
+            }
+        }
+    }
+
+}

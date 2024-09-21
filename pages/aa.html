@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Bootstrap core CSS -->
+    <link href="../vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="nofollow" >
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <!-- Custom styles for this template -->
+    <link href="../assets/css/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container main-container">
+        <header>
+            <div class="header-bg"><span>आचार्य श्री 108 विशद सागर जी महाराज</span></div>
+            <!-- Navigation -->
+            <nav class="navbar navbar-expand-lg navbar-dark">
+                <a class="navbar-brand" href="#"></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav ml-left">
+                        <li class="nav-item">
+                            <a class="nav-link" href="../index.html">जीवनी</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+
+        <!-- Page Content -->
+        <div class="container mt-3">
+            <div class="devider"></div>
+            <h3 class="m-0 text-center">विधान</h3>
+            <div class="devider"></div>
+            <div class="row">
+                <div class="col-lg-12 left-side">
+                    <section class="intro">
+                        <div class="card my-4">
+                            <div class="card-body">
+                                <div class="row">
+                                    <div class="col-lg-12">
+                                        <input type="text" id="searchInput" placeholder="Search by book name" oninput="searchBooks()">
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-lg-4">
+                                        <ol class="list-group" id="book1">
+                                            <li class="list-group-item">1. विधान संग्रह -1 <a href="../assets/pdf/Vidhan Sangrah_1.pdf" download><i class="fa fa-file-pdf-o" aria-hidden="true"></i></a></li>
+                                            <li class="list-group-item">2. विधान संग्रह -2 <a href="../assets/pdf/Vidhan Sangrah_2.pdf" download><i class="fa fa-file-pdf-o" aria-hidden="true"></i></a></li>
+                                        </ol>
+                                    </div>
+                                    <div class="col-lg-4">
+                                        <ol class="list-group" id="book2" start="81">
+                                            <li class="list-group-item">91. चौसठ ऋद्धि विधान <a href="../assets/pdf/64 Ridhi.pdf" download><i class="fa fa-file-pdf-o" aria-hidden="true"></i></a></li>
+                                            <li class="list-group-item">92. वृहद गणधर वलय विधान <a href="../assets/pdf/Gaddhar Valay.pdf" download><i class="fa fa-file-pdf-o" aria-hidden="true"></i></a></li>
+                                        </ol>
+                                    </div>
+                                    <div class="col-lg-4">
+                                        <ol class="list-group" id="book3" start="161">
+                                            <li class="list-group-item">181. श्री सिद्धचक्र विधान पूजा (लघु) <a href="../assets/pdf/visad sidchakrya vidhan 28=7-2021.pdf" download><i class="fa fa-file-pdf-o" aria-hidden="true"></i></a></li>
+                                        </ol>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </div><!-- Left Panel end -->
+            </div>
+        </div>
+    </div>
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="../vendor/jquery/jquery.min.js"></script>
+    <script src="../vendor/popper/popper.min.js"></script>
+    <script src="../vendor/bootstrap/js/bootstrap.min.js"></script>
+
+    <script src="../vendor/jquery/jquery.marquee.min.js" type="text/javascript"></script>
+    <script src="../assets/js/main.js"></script>
+
+    <script>
+        function searchBooks() {
+            var input = document.getElementById('searchInput').value.toUpperCase();
+            var lists = document.querySelectorAll('.list-group');
+            lists.forEach(function(list) {
+                var items = list.getElementsByTagName('li');
+                for (var i = 0; i < items.length; i++) {
+                    var item = items[i];
+                    var text = item.textContent || item.innerText;
+                    if (text.toUpperCase().indexOf(input) > -1) {
+                        item.style.display = "";
+                    } else {
+                        item.style.display = "none";
+                    }
+                }
+            });
+        }
+    </script>
+</body>
+
+</html>

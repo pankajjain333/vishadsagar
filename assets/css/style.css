@@ -1,0 +1,265 @@
+/**
+ * These are common mixin used across application.
+ */
+/**
+ * Gradient background
+ * @startColor: start color
+ * @endColor: end color
+ */
+/**
+ * Box Shadow
+ * @startColor: start color
+ * @endColor: end color
+ */
+/*
+.shadow (@top, @right, @bottom, @left, @shadowColor) {
+  -webkit-box-shadow: @top @right @bottom @left @shadowColor;
+  -moz-box-shadow:	  @top @right @bottom @left @shadowColor;
+  box-shadow:		  @top @right @bottom @left @shadowColor;
+}
+*/
+/**
+ * Animation
+ * @transition: transition parameters
+ */
+/**
+ * Border radius
+ * @transition: transition parameters
+ */
+/**********
+Global Variable
+***********/
+body {
+  background-color: rgba(234, 183, 128, 0.2);
+  overflow-x: hidden ;
+  background-image: url('../../assets/img/Jain_Prateek_Chihna.svg');
+  background-repeat: repeat-x;
+  background-position: center center;
+  background-attachment: fixed;
+  background-size: 20% auto;
+}
+.main-container {
+  background-color: rgba(251, 251, 251, 0.9);
+  padding: 0;
+  box-shadow: 0 5px 27px 4px #ccc;
+}
+.bg-dark {
+  background-color: #a31a16 !important;
+}
+.m-0 {
+  margin: 0;
+}
+.p-r-0 {
+  padding-right: 0;
+}
+.p-l-5 {
+  padding-left: 5px;
+}
+.fa-file-pdf-o {
+  color: #a31a16;
+  cursor: pointer;
+  position: absolute;
+  right: 8px;
+  top: 17px;
+}
+.btn-primary {
+  background-color: #a31a16;
+  border: 0px;
+  cursor: pointer;
+}
+.btn-primary:hover {
+  background-color: #EC9D68;
+}
+.carousel-container {
+  background-color: rgba(251, 251, 251, 0.9);
+}
+.carousel-item {
+  height: 250px;
+  min-height: 200px;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.header-bg {
+  height: 200px;
+  background-image: url('../../assets/img/header.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.header-bg span {
+  bottom: 30px;
+  display: inline-block;
+  font-size: 29px;
+  left: 0;
+  margin: 0 auto;
+  position: absolute;
+  right: -73px;
+  text-align: center;
+  text-shadow: 1px 1px 1px #000;
+  color: #a31a16;
+}
+header {
+  background-color: #a31a16;
+}
+header .navbar {
+  padding: 0.5rem 0rem;
+}
+header .navbar .navbar-nav li {
+  background-color: #db8055;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  margin: 0 4px;
+}
+header .navbar .navbar-nav li .nav-link {
+  color: #a31a16;
+}
+.youtube-vedio {
+  position: relative;
+}
+.youtube-vedio .saujanya-se {
+  bottom: 0;
+  color: #fff;
+  display: inline-block;
+  font-size: 10px;
+  height: 4px;
+  left: 0;
+  margin: 0 auto;
+  position: absolute;
+  right: 0;
+  text-align: center;
+  top: 0;
+  width: 75%;
+  z-index: 999;
+}
+.marquee {
+  overflow: hidden;
+  padding: 7px 20px;
+  color: #fff;
+  height: 40px;
+}
+.marquee ul {
+  margin: 0;
+  padding: 0;
+}
+.marquee ul li {
+  display: inline;
+  margin: 0 30px;
+}
+.marquee.inner-marquee {
+  background-color: #6f0401;
+}
+.marquee-msg {
+  overflow: hidden;
+  height: 200px;
+}
+.devider {
+  background-image: url('../../assets/img/line.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  height: 25px;
+}
+.list {
+  margin: 0;
+  padding: 0 15px;
+}
+.developed-by {
+  bottom: 3px;
+  color: #4d0402;
+  font-size: 10px;
+  position: absolute;
+  right: 13px;
+}
+.developed-by a {
+  text-decoration: none;
+  color: #4d0402;
+  font-weight: bold;
+}
+.developed-by a:hover {
+  text-decoration: underline;
+  color: #fff;
+}
+.slick-slide {
+  height: auto !important;
+  margin: 0px 20px;
+}
+.slick-slide img {
+  width: auto;
+  height: 300px;
+}
+.slick-prev:before,
+.slick-next:before {
+  color: black;
+}
+.slick-slide {
+  transition: all ease-in-out 0.3s;
+  opacity: .2;
+}
+.slick-active {
+  opacity: .5;
+}
+.slick-current {
+  opacity: 1;
+}
+.slick-prev {
+  position: absolute;
+  bottom: 0px;
+  background-color: #a31a16;
+  color: #fff;
+  border: 0px;
+  cursor: pointer;
+}
+.slick-next {
+  position: absolute;
+  right: 0;
+  background-color: #a31a16;
+  color: #fff;
+  border: 0px;
+  cursor: pointer;
+}
+.slick-dots {
+  text-align: center;
+  list-style: none;
+  margin-top: 4px;
+}
+.slick-dots li {
+  display: inline-block;
+}
+.slick-dots li button {
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+  background-color: #a31a16;
+  color: #fff;
+  border: 0px;
+  margin: 0 2px;
+  cursor: pointer;
+}
+footer {
+  background-color: #a31a16;
+  position: relative;
+}
+footer .footer-nav {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+footer .footer-nav li {
+  display: inline-block;
+  margin: 0;
+  color: #fff;
+}
+footer .footer-nav li a {
+  color: #fff;
+  text-decoration: none;
+}
+footer .footer-nav li a:hover {
+  text-decoration: underline;
+}
+
+
