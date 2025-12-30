@@ -3,564 +3,1073 @@
 
 <head>
 
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="">
-    <meta name="author" content="">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<meta name="description" content="">
+	<meta name="author" content="">
 
-    <title>आचार्य श्री 108 विशद सागर जी महाराज</title>
+	<title>आचार्य श्री 108 विशद सागर जी महाराज</title>
 
-    <!-- Bootstrap core CSS -->
-    <link href="../vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+	<!-- Bootstrap core CSS -->
+	<link href="../vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
 
-    <!-- Custom styles for this template -->
-    <link href="../assets/css/style.css" rel="stylesheet">
+	<!-- Custom styles for this template -->
+	<link href="../assets/css/style.css" rel="stylesheet">
 
-    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
+	<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+	<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+	<!--[if lt IE 9]>
     <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js" type="text/javascript"></script>
     <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js" type="text/javascript"></script>
     <![endif]-->
 	<script>
 		function searchBooks() {
-		var input = document.getElementById('searchInput').value.toUpperCase();
-		var lists = document.querySelectorAll('.list-group');
-		lists.forEach(function(list) {
-			var items = list.getElementsByTagName('li');
-			for (var i = 0; i < items.length; i++) {
-				var item = items[i];
-				var link = item.getElementsByTagName('a')[0];
-				var text = item.textContent || item.innerText;
-				var href = link ? link.getAttribute('href') : '';
-				if (text.toUpperCase().indexOf(input) > -1 || href.toUpperCase().indexOf(input) > -1) {
-					item.style.display = "";
-				} else {
-					item.style.display = "none";
+			var input = document.getElementById('searchInput').value.toUpperCase();
+			var lists = document.querySelectorAll('.list-group');
+			lists.forEach(function (list) {
+				var items = list.getElementsByTagName('li');
+				for (var i = 0; i < items.length; i++) {
+					var item = items[i];
+					var link = item.getElementsByTagName('a')[0];
+					var text = item.textContent || item.innerText;
+					var href = link ? link.getAttribute('href') : '';
+					if (text.toUpperCase().indexOf(input) > -1 || href.toUpperCase().indexOf(input) > -1) {
+						item.style.display = "";
+					} else {
+						item.style.display = "none";
+					}
 				}
-			}
-		});
-	}
+			});
+		}
 	</script>
 </head>
 
-<body >
+<body>
 
-<div class="container main-container">
-    <header>
-        <div class="header-bg"><span>आचार्य श्री 108 विशद सागर जी महाराज</span></div>
-        <!-- Navigation -->
-        <nav class="navbar navbar-expand-lg navbar-dark">
-            <a class="navbar-brand" href="#"></a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarResponsive">
-                <ul class="navbar-nav ml-left">
-                    <li class="nav-item">
-                        <a class="nav-link" href="../index.html">जीवनी</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="../pages/sangh.html">संघ</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="../pages/sahitya.html">ग्रंथ</a>
-                    </li>
+	<div class="container main-container">
+		<header>
+			<div class="header-bg"><span>आचार्य श्री 108 विशद सागर जी महाराज</span></div>
+			<!-- Navigation -->
+			<nav class="navbar navbar-expand-lg navbar-dark">
+				<a class="navbar-brand" href="#"></a>
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive"
+					aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse" id="navbarResponsive">
+					<ul class="navbar-nav ml-left">
+						<li class="nav-item">
+							<a class="nav-link" href="../index.html">जीवनी</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="../pages/sangh.html">संघ</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="../pages/sahitya.html">ग्रंथ</a>
+						</li>
+						<li class="nav-item active">
+							<a class="nav-link" href="../pages/download.html">विधान<span class="sr-only">(current)</span></a>
+						</li>
+						<li class="nav-item ">
+							<a class="nav-link" href="../pages/video.html">वीडिओ </a>
+						</li>
+
+						<li class="nav-item">
+							<a class="nav-link" href="../pages/gallery.html">गैलरी</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="../pages/contact-us.html">हमसे संपर्क करे</a>
+						</li>
+					</ul>
+				</div>
+			</nav>
+			<!-- Navigation end -->
+
+			<div class="marquee inner-marquee" style="margin-top: 10px;">
+				<ul class="list-inline">
+					<li>णमो अरिहंताणं णमो सिद्धाणं णमो आयरियाणं णमो उवज्झायाणं णमो लोए सव्व साहूणं</li>
+					<li>णमो अरिहंताणं णमो सिद्धाणं णमो आयरियाणं णमो उवज्झायाणं णमो लोए सव्व साहूणं</li>
+				</ul>
+			</div>
+
+		</header>
+
+		<!-- Page Content -->
+		<div class="container mt-3">
+			<div class="devider"></div>
+			<h3 class="m-0 text-center">विधान</h3>
+			<div class="devider"></div>
+			<div class="row">
+				<div class="col-lg-12 left-side">
+
+					<section class="intro">
+
+						<div class="card my-4">
+							<input type="text" id="searchInput" placeholder="Search by vidhan name" oninput="searchBooks()" />
+							<div class="card-body">
+								<div class="row">
+									<div class="col-lg-4">
+
+										<ol class="list-group">
+											<li class="list-group-item">1. विधान संग्रह -1 <a href="../assets/pdf/Vidhan Sangrah_1.pdf"
+													download><i class="fa fa-file-pdf-o" aria-hidden="true"></i></a></li>
+											<li class="list-group-item">2. विधान संग्रह -2 <a href="../assets/pdf/Vidhan Sangrah_2.pdf"
+													download><i class="fa fa-file-pdf-o" aria-hidden="true"></i></a></li>
+											<li class="list-group-item">3. श्री विशद जिनवाणी संग्रह <a
+													href="../assets/pdf/Vishad jinvani sangrh 2012.pdf" download><i class="fa fa-file-pdf-o"
+														aria-hidden="true"></i></a></li>
+
+											<li class="list-group-item">4. श्री विशद साप्ताहिक विधान <a
+													href="../assets/pdf/Vishad Sapte Sangrah Vidhan - Book 2020.pdf" download><i
+														class="fa fa-file-pdf-o" aria-hidden="true"></i></a>
+											</li>
+											<li class="list-group-item">5. श्री विशद लघु 24 विधान <a
+													href="../assets/pdf/vishad laghu 24 vidhan.pdf" download><i class="fa fa-file-pdf-o"
+														aria-hidden="true"></i></a></li>
+
+											<li class="list-group-item">6. श्री आदिनाथ पूजन विधान <a
+													href="../assets/pdf/Sarv Mangal Dayad  Adhinath vidhan.pdf" download><i
+														class="fa fa-file-pdf-o" aria-hidden="true"></i></a>
+											</li>
+											<li class="list-group-item">7. श्री आदिनाथ पंचकल्याणक विधान <a
+													href="../assets/pdf/Adhinath 5 kiyank vidhan.pdf" download><i class="fa fa-file-pdf-o"
+														aria-hidden="true"></i></a></li>
+											<li class="list-group-item">8. श्री बड़े बाबा विधान <a href="../assets/pdf/Bde baba vidhan.pdf"
+													download><i class="fa fa-file-pdf-o" aria-hidden="true"></i></a></li>
+											<li class="list-group-item">9. श्री अजितनाथ विधान <a href="../assets/pdf/Ajit nath vidhan.pdf"
+													download><i class="fa fa-file-pdf-o" aria-hidden="true"></i></a></li>
+											<li class="list-group-item">10. श्री संभव नाथ विधान <a
+													href="../assets/pdf/Sambhav Nath Vidhan.pdf" download><i class="fa fa-file-pdf-o"
+														aria-hidden="true"></i></a></li>
+											<li class="list-group-item">11. श्री अभिनन्दन विधान <a href="../assets/pdf/Abhinandn nath.pdf"
+													download><i class="fa fa-file-pdf-o" aria-hidden="true"></i></a></li>
+											<li class="list-group-item">12. श्री सुमतिनाथ विधान <a href="../assets/pdf/Sumati Nath Vidhan.pdf"
+													download><i class="fa fa-file-pdf-o" aria-hidden="true"></i></a></li>
+											<li class="list-group-item">13. श्री पदम् प्रभु विधान <a
+													href="../assets/pdf/Padam prabhu vidhan.pdf" download><i class="fa fa-file-pdf-o"
+														aria-hidden="true"></i></a></li>
+											<li class="list-group-item">14. श्री सुपार्श्व्नाथ विधान <a
+													href="../assets/pdf/Suparash Nath Vidhan.pdf" download><i class="fa fa-file-pdf-o"
+														aria-hidden="true"></i></a></li>
+											<li class="list-group-item">15. श्री चंदाप्रभु विधान <a
+													href="../assets/pdf/chamtkark chandpraphu vidhan.pdf" download><i class="fa fa-file-pdf-o"
+														aria-hidden="true"></i></a></li>
+											<li class="list-group-item">16. श्री चंद्रप्रभु देहार तिजारा विधान लघु <a
+													href="../assets/pdf/Chandra_234.pdf" download><i class="fa fa-file-pdf-o"
+														aria-hidden="true"></i></a></li>
+											<li class="list-group-item">17. श्री वासुपूज्य विधान<a href="../assets/pdf/Vasupujy_vidhan.pdf"
+													download><i class="fa fa-file-pdf-o" aria-hidden="true"></i></a></li>
+											<li class="list-group-item">18. श्री अनन्तनाथ विधान <a href="../assets/pdf/Anantnath.pdf"
+													download><i class="fa fa-file-pdf-o" aria-hidden="true"></i></a></li>
+
+											<li class="list-group-item">19. श्री धर्मनाथ विधान <a href="../assets/pdf/Dharam Nath vidhan.pdf"
+													download><i class="fa fa-file-pdf-o" aria-hidden="true"></i></a></li>
+											<li class="list-group-item">20. मनोकामनापूर्ण शांतिनाथ विधान <a href="../assets/pdf/Shanti.pdf"
+													download><i class="fa fa-file-pdf-o" aria-hidden="true"></i></a></li>
+											<li class="list-group-item">21. श्री शांतिनाथ विधान <a href="../assets/pdf/Shri Shanti Nath.pdf"
+													download><i class="fa fa-file-pdf-o" aria-hidden="true"></i></a></li>
+											<li class="list-group-item">22. श्री शान्ति भक्ति विधान <a href="../assets/pdf/Shanti Bhakti.pdf"
+													download><i class="fa fa-file-pdf-o" aria-hidden="true"></i></a></li>
+											<li class="list-group-item">23. श्री शांतिनाथ विधान पूजन <a
+													href="../assets/pdf/Bda_shanti_vidhan.pdf" download><i class="fa fa-file-pdf-o"
+														aria-hidden="true"></i></a></li>
+											<li class="list-group-item">24. श्री शांति विधान (लघु) <a
+													href="../assets/pdf/shanti vidhan laghu.pdf" download><i class="fa fa-file-pdf-o"
+														aria-hidden="true"></i></a></li>
+											<li class="list-group-item">25. श्री शांति कुन्थु अरहनाथ विधान <a
+													href="../assets/pdf/Shanti Khuntu arhnath vidhan.pdf" download><i class="fa fa-file-pdf-o"
+														aria-hidden="true"></i></a></li>
+											<li class="list-group-item">26. श्री अरहनाथ विधान <a href="../assets/pdf/Araha nath vidhan.pdf"
+													download><i class="fa fa-file-pdf-o" aria-hidden="true"></i></a></li>
+											<li class="list-group-item">27. श्री मल्लिनाथ विधान <a href="../assets/pdf/Mallinath vidhan.pdf"
+													download><i class="fa fa-file-pdf-o" aria-hidden="true"></i></a></li>
+											<li class="list-group-item">28. श्री मुनिसुव्रतनाथ विधान <a
+													href="../assets/pdf/muni suvarth nath vidhan.pdf" download><i class="fa fa-file-pdf-o"
+														aria-hidden="true"></i></a></li>
+											<li class="list-group-item">29. श्री नेमिनाथ पूजन विधान <a
+													href="../assets/pdf/Nemi nath vidhan.pdf" download><i class="fa fa-file-pdf-o"
+														aria-hidden="true"></i></a></li>
+
+											<li class="list-group-item">30. श्री चवंलेश्वर पार्श्वनाथ विधान <a
+													href="../assets/pdf/chavanleswer parash nath vidhan.pdf" download><i class="fa fa-file-pdf-o"
+														aria-hidden="true"></i></a></li>
+											<li class="list-group-item">31. श्री पार्श्वनाथ पंचकल्याणक विधान <a
+													href="../assets/pdf/Shri Parshnath panchkalyank vidhan.pdf" download><i
+														class="fa fa-file-pdf-o" aria-hidden="true"></i></a>
+											</li>
+
+
+											<li class="list-group-item">32. श्री पार्श्वनाथ पूजन विधान( लघु) <a
+													href="../assets/pdf/Parasnath Poojan Vidhan.pdf" download><i class="fa fa-file-pdf-o"
+														aria-hidden="true"></i></a></li>
+
+											<li class="list-group-item">33. श्री अहिक्षेत्र पार्श्वनाथ विधान <a
+													href="../assets/pdf/paras nath ahishetra-2.pdf" download><i class="fa fa-file-pdf-o"
+														aria-hidden="true"></i></a></li>
+											<li class="list-group-item">34. श्री महावीर विधान <a href="../assets/pdf/Mahaver vidhan.pdf"
+													download><i class="fa fa-file-pdf-o" aria-hidden="true"></i></a></li>
+
+											<li class="list-group-item">35. श्री महावीर विधान पूजा (लघु) <a
+													href="../assets/pdf/Mahavir Vidhan pdf final.pdf" download><i class="fa fa-file-pdf-o"
+														aria-hidden="true"></i></a></li>
+
+											<li class="list-group-item">36. श्री महावीर समवशरण विधान <a
+													href="../assets/pdf/Mahaveer_Samoshran_Pooja_Vidhan.pdf" download><i class="fa fa-file-pdf-o"
+														aria-hidden="true"></i></a></li>
+											<li class="list-group-item">37. श्री शिखरजी विधान <a href="../assets/pdf/1_sikhar_ji_vidhan1.pdf"
+													download><i class="fa fa-file-pdf-o" aria-hidden="true"></i></a></li>
+											<li class="list-group-item">38. श्री भक्तामर विधान <a href="../assets/pdf/Bhaktambar.pdf"
+													download><i class="fa fa-file-pdf-o" aria-hidden="true"></i></a></li>
+
+											<li class="list-group-item">39. श्री जिनसहस्त्रनाम विधान <a href="../assets/pdf/1008_NAM.pdf"
+													download><i class="fa fa-file-pdf-o" aria-hidden="true"></i></a></li>
+											<li class="list-group-item">40. चन्दन षष्ठी विधान <a href="../assets/pdf/Chandan.pdf" download><i
+														class="fa fa-file-pdf-o" aria-hidden="true"></i></a></li>
+											<li class="list-group-item">41. कर्म निर्झर विधान <a href="../assets/pdf/Karam Nirjar.pdf"
+													download><i class="fa fa-file-pdf-o" aria-hidden="true"></i></a></li>
+
+
+											<li class="list-group-item">42. श्री सम्मेद शिखर चौबीस निर्वाण क्षेत्र विधान
+												<a href="../assets/pdf/Nirvan Chaetr vidhan.pdf" download><i class="fa fa-file-pdf-o"
+														aria-hidden="true"></i></a>
+											</li>
+											<li class="list-group-item">43. एक सौ सत्तर तीर्थंकर विधान <a
+													href="../assets/pdf/170 Tertkar  vidhan.pdf" download><i class="fa fa-file-pdf-o"
+														aria-hidden="true"></i></a></li>
+											<li class="list-group-item">44. आराधना के सुमन ( पूजन) <a
+													href="../assets/pdf/aaradhana ka suman.pdf" download><i class="fa fa-file-pdf-o"
+														aria-hidden="true"></i></a></li>
+											<li class="list-group-item">45. आराध्य अर्चना पूजन <a
+													href="../assets/pdf/Aarkdhay  archana pujn.pdf" download><i class="fa fa-file-pdf-o"
+														aria-hidden="true"></i></a></li>
+											<li class="list-group-item">46. श्री अर्हन्त धर्मचक्र विधान <a
+													href="../assets/pdf/Arht dharm charkr  vidhan.pdf" download><i class="fa fa-file-pdf-o"
+														aria-hidden="true"></i></a></li>
+											<li class="list-group-item">47. श्री चारित्र लब्धि विधान <a
+													href="../assets/pdf/Chatri Labdhi Vidhan-2013.pdf" download><i class="fa fa-file-pdf-o"
+														aria-hidden="true"></i></a></li>
+											<li class="list-group-item">48. श्री नवदेता पूजन महामण्डल विधान (लघु) <a
+													href="../assets/pdf/Chota Shri Navdevta Pujan Mahamandal Vidhan.pdf" download><i
+														class="fa fa-file-pdf-o" aria-hidden="true"></i></a>
+											</li>
+											<li class="list-group-item">49. श्री चारित्र शुद्धि विधान <a
+													href="../assets/pdf/Ctrit shudhi  vidhan.pdf" download><i class="fa fa-file-pdf-o"
+														aria-hidden="true"></i></a></li>
+											<li class="list-group-item">50. श्री इंद्र धवज महामण्डल <a
+													href="../assets/pdf/Indr dhavj vidhan.pdf" download><i class="fa fa-file-pdf-o"
+														aria-hidden="true"></i></a></li>
+											<li class="list-group-item">51. श्री महामृत्युंजय विधान (लघु) <a
+													href="../assets/pdf/Laghu mahamriunjay vidhan.pdf" download><i class="fa fa-file-pdf-o"
+														aria-hidden="true"></i></a></li>
+
+											<li class="list-group-item">52. श्री पंचकल्याणक पर्तिष्ठा विधान पूजन <a
+													href="../assets/pdf/punchkalyanak.pdf" download><i class="fa fa-file-pdf-o"
+														aria-hidden="true"></i></a></li>
+											<li class="list-group-item">53. श्री सम्यक आरधना विधान <a
+													href="../assets/pdf/Samayk aaradhana vidhan.pdf" download><i class="fa fa-file-pdf-o"
+														aria-hidden="true"></i></a></li>
+											<li class="list-group-item">54. श्री समोशरण विधान <a href="../assets/pdf/samosharn vidhan.pdf"
+													download><i class="fa fa-file-pdf-o" aria-hidden="true"></i></a></li>
+
+											<li class="list-group-item">55. श्री श्रुत स्कन्ध विधान पूजन <a
+													href="../assets/pdf/Shrut Skand Pujan Vidhan 2018.pdf" download><i class="fa fa-file-pdf-o"
+														aria-hidden="true"></i></a></li>
+											<li class="list-group-item">56. श्री चैत्य भक्ति विधान <a href="../assets/pdf/Chatya bhakti.pdf"
+													download><i class="fa fa-file-pdf-o" aria-hidden="true"></i></a></li>
+											<li class="list-group-item">57. श्रमण चर्या भाग - 1 <a href="../assets/pdf/sharaman_part_1.pdf"
+													download><i class="fa fa-file-pdf-o" aria-hidden="true"></i></a></li>
+											<li class="list-group-item">58. श्रमण चर्या भाग - 2<a href="../assets/pdf/sharaman_part_2.pdf"
+													download><i class="fa fa-file-pdf-o" aria-hidden="true"></i></a></li>
+											<li class="list-group-item">59. विशद अष्टापद विधान<a href="../assets/pdf/ashtapad.pdf" download><i
+														class="fa fa-file-pdf-o" aria-hidden="true"></i></a></li>
+											<li class="list-group-item">60. विशद पंच परमेष्ठी विधान<a
+													href="../assets/pdf/Punch Parmashthi Vidhan.pdf" download><i class="fa fa-file-pdf-o"
+														aria-hidden="true"></i></a></li>
+											<li class="list-group-item">61. विशद पंच परमेष्ठी विधान -2<a
+													href="../assets/pdf/Punch Parmashthi Vidhan-2.pdf" download><i class="fa fa-file-pdf-o"
+														aria-hidden="true"></i></a></li>
+
+											<li class="list-group-item">62. विशद मौन एकादशी विधान <a
+													href="../assets/pdf/Shri Mon Ekadashi Vrat Katha-2.pdf" download><i class="fa fa-file-pdf-o"
+														aria-hidden="true"></i></a></li>
+											<li class="list-group-item">63. श्री कल्याण मंदिर स्तोत्र विधान <a
+													href="../assets/pdf/Kalyan mandir.pdf" download><i class="fa fa-file-pdf-o"
+														aria-hidden="true"></i></a></li>
+											<li class="list-group-item">64. विशद विषापहार स्तोत्र महामण्डल विधान
+												(संस्कृत )<a href="../assets/pdf/vishapa_har_2.pdf" download><i class="fa fa-file-pdf-o"
+														aria-hidden="true"></i></a></li>
+											<li class="list-group-item">65. श्री विशद वास्तु विधान <a
+													href="../assets/pdf/VASTU_VIDHAN_PDF.pdf" download><i class="fa fa-file-pdf-o"
+														aria-hidden="true"></i></a></li>
+											<li class="list-group-item">66. श्री तत्त्वार्थसूत्र मंडल विधान (लघु ) विधान
+												<a href="../assets/pdf/tatwarth_sutra_Final.pdf" download><i class="fa fa-file-pdf-o"
+														aria-hidden="true"></i></a>
+											</li>
+											<li class="list-group-item">67. वृहत स्वयम्भू स्तोत्र<a href="../assets/pdf/suvym_bhu_24.pdf"
+													download><i class="fa fa-file-pdf-o" aria-hidden="true"></i></a></li>
+
+
+											<li class="list-group-item">68. श्री सम्मेद शिखर चौबीस निर्वाण क्षेत्र विधान
+												<a href="../assets/pdf/shikhar_ji_nirvan_pujan.pdf" download><i class="fa fa-file-pdf-o"
+														aria-hidden="true"></i></a>
+											</li>
+											<li class="list-group-item">69. श्री शनिग्रहारिष्ट निवारक विधान <a
+													href="../assets/pdf/shani_grh.pdf" download><i class="fa fa-file-pdf-o"
+														aria-hidden="true"></i></a></li>
+
+
+											<li class="list-group-item">70. श्री कालसर्प दोष निवारक विधान <a
+													href="../assets/pdf/kal_sarp_dos_vidhan_final.pdf" download><i class="fa fa-file-pdf-o"
+														aria-hidden="true"></i></a></li>
+
+
+
+											<li class="list-group-item">71. श्री सरस्वती मंडल विधान(लघु) <a
+													href="../assets/pdf/saraswati_vidhan-sari-final.pdf" download><i class="fa fa-file-pdf-o"
+														aria-hidden="true"></i></a></li>
+
+
+											<li class="list-group-item">72. श्री विराग सागर पूजन विधान <a
+													href="../assets/pdf/g__virag_sagar_vidhan.pdf" download><i class="fa fa-file-pdf-o"
+														aria-hidden="true"></i></a></li>
+
+
+
+
+											<li class="list-group-item">73. विशद ऋषि मंडल विधान <a
+													href="../assets/pdf/Rishi_Mandal_Vidhan.pdf" download><i class="fa fa-file-pdf-o"
+														aria-hidden="true"></i></a></li>
+											<li class="list-group-item">74. श्री पुरन्दर व्रत विधान <a
+													href="../assets/pdf/Purendar_vrat_Vidhan.pdf" download><i class="fa fa-file-pdf-o"
+														aria-hidden="true"></i></a></li>
+											<li class="list-group-item">75. विशद निर्वाण भक्ति विधान <a
+													href="../assets/pdf/Nirvan_Bhadti_vidhan.pdf" download><i class="fa fa-file-pdf-o"
+														aria-hidden="true"></i></a></li>
+											<li class="list-group-item">76. विशद क्षायिक नवलब्धि विधान <a
+													href="../assets/pdf/NEW_BOOK__CHAYIK_LABDHI_2019.pdf" download><i class="fa fa-file-pdf-o"
+														aria-hidden="true"></i></a></li>
+											<li class="list-group-item">77. श्री विशद भक्ति आराधना -1 <a
+													href="../assets/pdf/Narnol Final 1-6-18.pdf" download><i class="fa fa-file-pdf-o"
+														aria-hidden="true"></i></a></li>
+											<li class="list-group-item">78. श्री विशद लघु रतनत्रय विधान <a
+													href="../assets/pdf/Shri Laghu Ratnetre Vidhan.pdf" download><i class="fa fa-file-pdf-o"
+														aria-hidden="true"></i></a></li>
+											<li class="list-group-item">79. विशद स्तोत्र संग्रह <a href="../assets/pdf/Stotra Bh.pdf"
+													download><i class="fa fa-file-pdf-o" aria-hidden="true"></i></a></li>
+											<li class="list-group-item">80. लक्ष्मी प्राप्ति विधान<a href="../assets/pdf/lakshmi.pdf"
+													download><i class="fa fa-file-pdf-o" aria-hidden="true"></i></a></li>
+											<li class="list-group-item">81. श्री सम्यक ज्ञान विधान <a
+													href="../assets/pdf/Samyak Ghan Vidhan.pdf" download><i class="fa fa-file-pdf-o"
+														aria-hidden="true"></i></a></li>
+											<li class="list-group-item">82. श्री ऋषि मंडल विधान <a href="../assets/pdf/Risimandal Vidhan.pdf"
+													download><i class="fa fa-file-pdf-o" aria-hidden="true"></i></a></li>
+											<li class="list-group-item">83. श्री पुण्यास्त्रव विधान <a
+													href="../assets/pdf/Punya sarva  vidhan.pdf" download><i class="fa fa-file-pdf-o"
+														aria-hidden="true"></i></a></li>
+											<li class="list-group-item">84. श्री णमोकार मंत्र, पंचमेरू, नंदीश्वर विधान
+												<a href="../assets/pdf/Panchmaru - Nandisheear.pdf" download><i class="fa fa-file-pdf-o"
+														aria-hidden="true"></i></a>
+											</li>
+											<li class="list-group-item">85. श्री दिगम्बर जैन अतिशय क्षेत्र नेवटा पूजन
+												आरती चालीसा <a href="../assets/pdf/Nevta puja vidhan.pdf" download><i class="fa fa-file-pdf-o"
+														aria-hidden="true"></i></a></li>
+											<li class="list-group-item">86. श्री नवग्रह शांति विधान <a
+													href="../assets/pdf/Navgrah Vidhan (bda).pdf" download><i class="fa fa-file-pdf-o"
+														aria-hidden="true"></i></a></li>
+											<li class="list-group-item">87. श्री णमोकार मंत्र विधान <a href="../assets/pdf/Namokar Vidhan.pdf"
+													download><i class="fa fa-file-pdf-o" aria-hidden="true"></i></a></li>
+
+											<li class="list-group-item">88. देव शास्त्र गुरु एवं अतिशय क्षेत्र पूजन <a
+													href="../assets/pdf/Dev Shastra Guru Poojan.pdf" download><i class="fa fa-file-pdf-o"
+														aria-hidden="true"></i></a></li>
+											<li class="list-group-item">89. श्री पंचकल्याणक प्रतिष्ठा विधान पूजन <a
+													href="../assets/pdf/punchkalyanak.pdf" download><i class="fa fa-file-pdf-o"
+														aria-hidden="true"></i></a></li>
+											<li class="list-group-item">90. क्षेत्रपाल विधान <a
+													href="../assets/pdf/Vishad Kshetrapal Vidhan.pdf" download><i class="fa fa-file-pdf-o"
+														aria-hidden="true"></i></a></li>
+											<li class="list-group-item">91. चौसठ ऋद्धि विधान <a href="../assets/pdf/64 Ridhi.pdf" download><i
+														class="fa fa-file-pdf-o" aria-hidden="true"></i></a></li>
+											<li class="list-group-item">92. वृहद गणधर वलय विधान <a href="../assets/pdf/Gaddhar Valay.pdf"
+													download><i class="fa fa-file-pdf-o" aria-hidden="true"></i></a></li>
+											<li class="list-group-item">93. श्री ऋषि विधान <a href="../assets/pdf/Raishi vidhan.pdf"
+													download><i class="fa fa-file-pdf-o" aria-hidden="true"></i></a></li>
+											<li class="list-group-item">94. श्री षट्खण्डागम विधान <a
+													href="../assets/pdf/Shatkhandagam 6 vidhan.pdf" download><i class="fa fa-file-pdf-o"
+														aria-hidden="true"></i></a></li>
+											<li class="list-group-item">95. श्री नवदेवता पूजन महामण्डल विधान <a
+													href="../assets/pdf/Shri Navdevta Pujan Mahamandal Vidhan.pdf" download><i
+														class="fa fa-file-pdf-o" aria-hidden="true"></i></a>
+											</li>
+											<li class="list-group-item">96. श्री श्रुत स्कन्ध विधान <a
+													href="../assets/pdf/Sutr skndha vidhan.pdf" download><i class="fa fa-file-pdf-o"
+														aria-hidden="true"></i></a></li>
+											<li class="list-group-item">97. श्री विजय पताका विधान <a
+													href="../assets/pdf/vijiy pataka vidhan.pdf" download><i class="fa fa-file-pdf-o"
+														aria-hidden="true"></i></a></li>
+											<li class="list-group-item">98. श्री वृहद नन्दीश्वर विधान <a
+													href="../assets/pdf/vishad  brahd nandisor vidhan 2017.pdf" download><i
+														class="fa fa-file-pdf-o" aria-hidden="true"></i></a>
+											</li>
+											<li class="list-group-item">99. श्री विशद भक्तामर महामण्डल विधान <a
+													href="../assets/pdf/Vishad Bhaktamber Mahamandal Vidhan.pdf" download><i
+														class="fa fa-file-pdf-o" aria-hidden="true"></i></a>
+											</li>
+											<li class="list-group-item">100. श्री विशद भक्ति पीयूष विधान <a
+													href="../assets/pdf/Vishad Bhakti peusha 2011	.pdf" download><i class="fa fa-file-pdf-o"
+														aria-hidden="true"></i></a></li>
+											<li class="list-group-item">101. श्री विशद चूलगिरि विधान <a
+													href="../assets/pdf/vishad chulgiri vidhan puji.pdf" download><i class="fa fa-file-pdf-o"
+														aria-hidden="true"></i></a></li>
+
+											<li class="list-group-item">104. श्री विशद स्तोत्र संग्रह हिन्दी काव्य <a
+													href="../assets/pdf/Vishad Storot sanragh hindhi kawy.pdf" download><i
+														class="fa fa-file-pdf-o" aria-hidden="true"></i></a>
+											</li>
+											<li class="list-group-item">105. चालीसा संग्रह <a href="../assets/pdf/Vishad chalesha sangrah.pdf"
+													download><i class="fa fa-file-pdf-o" aria-hidden="true"></i></a></li>
+											<li class="list-group-item">106. श्री चौबीस तीर्थंकर विधान <a
+													href="../assets/pdf/bda__chobise__vidhan.pdf" download><i class="fa fa-file-pdf-o"
+														aria-hidden="true"></i></a></li>
+											<li class="list-group-item">107. विशद आरती संग्रह<a
+													href="../assets/pdf/Vishad Arti sangrah 2011.pdf" download><i class="fa fa-file-pdf-o"
+														aria-hidden="true"></i></a></li>
+											<li class="list-group-item">108. विशद भजन संग्रह <a
+													href="../assets/pdf/Vishad Bhan Sangrah 5 x 7.5.pdf" download><i class="fa fa-file-pdf-o"
+														aria-hidden="true"></i></a></li>
+											<li class="list-group-item">109. विशद पंचविधान संग्रह <a href="../assets/pdf/5_vidhan.pdf"
+													download><i class="fa fa-file-pdf-o" aria-hidden="true"></i></a></li>
+
+											<li class="list-group-item">110. श्री विशद याग मण्डल विधान <a href="../assets/pdf/11.pdf"
+													download><i class="fa fa-file-pdf-o" aria-hidden="true"></i></a></li>
+											<li class="list-group-item">111. सोलहकारण भावना<a href="../assets/pdf/16 karn bhavna.pdf"
+													download><i class="fa fa-file-pdf-o" aria-hidden="true"></i></a></li>
+											<li class="list-group-item">112. मंगलाचरण<a href="../assets/pdf/manglacharan.pdf" download><i
+														class="fa fa-file-pdf-o" aria-hidden="true"></i></a></li>
+											<li class="list-group-item">113. विशद पद्मावती विधान<a
+													href="../assets/pdf/Vishad Padmawati Vidhan.pdf" download><i class="fa fa-file-pdf-o"
+														aria-hidden="true"></i></a></li>
+											<li class="list-group-item">114. वृहद जिनसहस्रनाम विधान <a href="../assets/pdf/shastram.pdf"
+													download><i class="fa fa-file-pdf-o" aria-hidden="true"></i></a></li>
+											<li class="list-group-item">115. श्री रक्षाबंधन विधान<a href="../assets/pdf/Rakshabandhan.pdf"
+													download><i class="fa fa-file-pdf-o" aria-hidden="true"></i></a></li>
+											<li class="list-group-item">116. श्री रक्षाबंधन विधान (लधु) <a
+													href="../assets/pdf/Raksha Bandhan_laghu.pdf" download><i class="fa fa-file-pdf-o"
+														aria-hidden="true"></i></a></li>
+											<li class="list-group-item">117. श्री कल्पद्रुम महामण्डल विधान <a
+													href="../assets/pdf/laghu_Kalpdrum_Vidhan.pdf" download><i class="fa fa-file-pdf-o"
+														aria-hidden="true"></i></a></li>
+											<li class="list-group-item">118. श्री कूट पूजन विधान <a href="../assets/pdf/kut_pujan.pdf"
+													download><i class="fa fa-file-pdf-o" aria-hidden="true"></i></a></li>
+											<li class="list-group-item">119. श्री विशद लघु गणधर वलय विधान <a
+													href="../assets/pdf/Vishad Gandhar Viley 2018.pdf" download><i class="fa fa-file-pdf-o"
+														aria-hidden="true"></i></a></li>
+											<li class="list-group-item">120. श्री जम्बूस्वामी विधान <a
+													href="../assets/pdf/Jambhu Swami Pooja Book.pdf" download><i class="fa fa-file-pdf-o"
+														aria-hidden="true"></i></a></li>
+											<li class="list-group-item">121. श्री विशद दसलक्षण विधान <a
+													href="../assets/pdf/Daslakshan Vidhan-2018.pdf" download><i class="fa fa-file-pdf-o"
+														aria-hidden="true"></i></a></li>
+											<li class="list-group-item">122. श्री विशद दसलक्षण विधान (लधु) <a
+													href="../assets/pdf/Dashlaxan Vidhan short.pdf" download><i class="fa fa-file-pdf-o"
+														aria-hidden="true"></i></a></li>
+
+
+											<li class="list-group-item">123. सुगन्ध दशमी व्रत पूजा <a
+													href="../assets/pdf/Sugand Dashmi Vrat Pooja Book Final 2018.pdf" download><i
+														class="fa fa-file-pdf-o" aria-hidden="true"></i></a>
+											</li>
+
+
+											<li class="list-group-item">124. श्री स्वंयभू विधान (लधु) <a
+													href="../assets/pdf/Laghu Sawayam bhoo vidhan.pdf" download><i class="fa fa-file-pdf-o"
+														aria-hidden="true"></i></a></li>
+											<li class="list-group-item">125. श्री समवसरण विधान (लघु) <a
+													href="../assets/pdf/Laghu Samosaran vidhan.pdf" download><i class="fa fa-file-pdf-o"
+														aria-hidden="true"></i></a></li>
+											<li class="list-group-item">126. श्री ऋषिमण्डल विधान <a
+													href="../assets/pdf/Laghu Risimandal Vidhan.pdf" download><i class="fa fa-file-pdf-o"
+														aria-hidden="true"></i></a></li>
+
+
+											<li class="list-group-item">127. श्री मृतुन्जय विधान (लघु) <a
+													href="../assets/pdf/Laghu Martunjay vidhan.pdf" download><i class="fa fa-file-pdf-o"
+														aria-hidden="true"></i></a></li>
+											<li class="list-group-item">128. श्री मृतुन्जय विधान (वृहद ) <a
+													href="../assets/pdf/Mahamatruajay vidhan.pdf" download><i class="fa fa-file-pdf-o"
+														aria-hidden="true"></i></a></li>
+											<li class="list-group-item">129. श्री कल्पद्रुम महामण्डल विधान <a
+													href="../assets/pdf/laghu Kalpdrum Vidhan.pdf" download><i class="fa fa-file-pdf-o"
+														aria-hidden="true"></i></a></li>
+											<li class="list-group-item">130. श्री चौबीस तीर्थंकर विधान (लघु) <a
+													href="../assets/pdf/Laghu 24 Tharthanker vidhan.pdf" download><i class="fa fa-file-pdf-o"
+														aria-hidden="true"></i></a></li>
+											<li class="list-group-item">131. श्री करम दहन विधान <a href="../assets/pdf/karam dhahn vidhan.pdf"
+													download><i class="fa fa-file-pdf-o" aria-hidden="true"></i></a></li>
+											<li class="list-group-item">132. श्री जिनवाणी संग्रह <a
+													href="../assets/pdf/Jinvani Sangrh( pujan Path).pdf" download><i class="fa fa-file-pdf-o"
+														aria-hidden="true"></i></a></li>
+											<li class="list-group-item">133. श्री कालसर्प दोष निवारक विधान <a
+													href="../assets/pdf/kal sarp dos vidhan final.pdf" download><i class="fa fa-file-pdf-o"
+														aria-hidden="true"></i></a></li>
+
+											<li class="list-group-item">134. श्री गणधर विलय विधान (लघु ) <a
+													href="../assets/pdf/Gandhar vilay pujan vidhan.pdf" download><i class="fa fa-file-pdf-o"
+														aria-hidden="true"></i></a></li>
+											<li class="list-group-item">135. श्री एकीभाव स्त्रोत्र विधान <a
+													href="../assets/pdf/Eaki Bhava  stotra Vidhan.pdf" download><i class="fa fa-file-pdf-o"
+														aria-hidden="true"></i></a></li>
+											<li class="list-group-item">136. श्री चौबीस तीर्थंकर चालीसा <a
+													href="../assets/pdf/chobese chaliesa.pdf" download><i class="fa fa-file-pdf-o"
+														aria-hidden="true"></i></a></li>
+											<li class="list-group-item">137. भक्ति के फूल <a href="../assets/pdf/Bhakti ki fool.pdf"
+													download><i class="fa fa-file-pdf-o" aria-hidden="true"></i></a></li>
+										</ol>
+									</div>
+									<div class="col-lg-4">
+
+										<ol class="list-group" start="138">
+											<li class="list-group-item">138. श्री बड़ागांव पूजन एवं कल्याण मंदिर विधान <a
+													href="../assets/pdf/Bada Gav pujan and klyanmandir vidhan.pdf" download><i
+														class="fa fa-file-pdf-o" aria-hidden="true"></i></a>
+											</li>
+											<li class="list-group-item">139. श्री अरिहंत महिमा विधान <a
+													href="../assets/pdf/Arihat Mahima vidhan.pdf" download><i class="fa fa-file-pdf-o"
+														aria-hidden="true"></i></a></li>
+											<li class="list-group-item">140. श्री अनंत व्रत विधान <a
+													href="../assets/pdf/Anint virt vidhan.pdf" download><i class="fa fa-file-pdf-o"
+														aria-hidden="true"></i></a></li>
+											<li class="list-group-item">141. श्री अनंतनाथ विधान <a href="../assets/pdf/aninith.pdf"
+													download><i class="fa fa-file-pdf-o" aria-hidden="true"></i></a></li>
+											<li class="list-group-item">142. श्री धनतेरस पूजन विधान <a href="../assets/pdf/dhanteras.pdf"
+													download><i class="fa fa-file-pdf-o" aria-hidden="true"></i></a></li>
+											<li class="list-group-item">143. छोटी दिवाली पूजन <a href="../assets/pdf/choti diwali vidhan.pdf"
+													download><i class="fa fa-file-pdf-o" aria-hidden="true"></i></a></li>
+											<li class="list-group-item">144. दिवाली पूजन <a href="../assets/pdf/Diwali.pdf" download><i
+														class="fa fa-file-pdf-o" aria-hidden="true"></i></a></li>
+											<li class="list-group-item">145. श्री दिगम्बर जैन साधु परिचय <a
+													href="../assets/pdf/दिगम्बर जैन साधु परिचय.pdf" download><i class="fa fa-file-pdf-o"
+														aria-hidden="true"></i></a></li>
+
+											<li class="list-group-item">146. श्री नंदिशवर विधान (वृहद ) <a
+													href="../assets/pdf/Nadishwar deep vidhan (bda).pdf" download><i class="fa fa-file-pdf-o"
+														aria-hidden="true"></i></a></li>
+											<li class="list-group-item">147. श्री विशद मूक उपदेश -2 <a
+													href="../assets/pdf/Mookupdesh bhag-2.pdf" download><i class="fa fa-file-pdf-o"
+														aria-hidden="true"></i></a></li>
+											<li class="list-group-item">148. श्री विशद मूक उपदेश -3 <a
+													href="../assets/pdf/Mookupdesh bhag-2_2.pdf" download><i class="fa fa-file-pdf-o"
+														aria-hidden="true"></i></a></li>
+											<li class="list-group-item">149. श्री दिगम्बर जैन अतिशय क्षेत्र मोजाम्बाद
+												पूजन आरती चालीसा <a href="../assets/pdf/Mojmabad pujan.pdf" download><i class="fa fa-file-pdf-o"
+														aria-hidden="true"></i></a></li>
+											<li class="list-group-item">150. श्री विशद याग मंडल विधान <a
+													href="../assets/pdf/Yag mandal vidhan Singal.pdf" download><i class="fa fa-file-pdf-o"
+														aria-hidden="true"></i></a></li>
+											<li class="list-group-item">151. श्री विराट नगर पार्श्वनाथ विधान <a
+													href="../assets/pdf/Virat Nagar pujan.pdf" download><i class="fa fa-file-pdf-o"
+														aria-hidden="true"></i></a></li>
+											<li class="list-group-item">152. श्री वासुपूज्य विधान <a href="../assets/pdf/Vasupujy vidhan.pdf"
+													download><i class="fa fa-file-pdf-o" aria-hidden="true"></i></a></li>
+											<li class="list-group-item">153. श्री व्रत, पूजन, कथा जाप्य संग्रह <a
+													href="../assets/pdf/Vart Pujn Japya Katha.pdf" download><i class="fa fa-file-pdf-o"
+														aria-hidden="true"></i></a></li>
+											<li class="list-group-item">154. श्री त्रिकाल तीर्थंकर विधान पूजन <a
+													href="../assets/pdf/Trikal Trinthkar Vidhan.pdf" download><i class="fa fa-file-pdf-o"
+														aria-hidden="true"></i></a></li>
+											<li class="list-group-item">155. श्री तीर्थंकर सिद्धक्षेत्र विधान <a
+													href="../assets/pdf/Teerthnkar  Shidh chert Vidhan.pdf" download><i class="fa fa-file-pdf-o"
+														aria-hidden="true"></i></a></li>
+											<li class="list-group-item">156. श्री तत्वार्थसूत्र मंडल विधान (लघु ) <a
+													href="../assets/pdf/tatwarth sutra Final.pdf" download><i class="fa fa-file-pdf-o"
+														aria-hidden="true"></i></a></li>
+											<li class="list-group-item">157. श्री सोलहकारण विधान <a
+													href="../assets/pdf/Solha karan Vidhan.pdf" download><i class="fa fa-file-pdf-o"
+														aria-hidden="true"></i></a></li>
+											<li class="list-group-item">158. श्री सिद्धपरमेष्टि विधान <a
+													href="../assets/pdf/Sidha Parmesthi Vidhan.pdf" download><i class="fa fa-file-pdf-o"
+														aria-hidden="true"></i></a></li>
+											<li class="list-group-item">159. श्री शनिअरिष्टनिवारक विधान <a href="../assets/pdf/shani grh.pdf"
+													download><i class="fa fa-file-pdf-o" aria-hidden="true"></i></a></li>
+											<li class="list-group-item">160. श्री सर्वदोष प्रायश्चित्त विधान <a
+													href="../assets/pdf/Sarvadosh Prayshit vidgan (Laghu).pdf" download><i
+														class="fa fa-file-pdf-o" aria-hidden="true"></i></a>
+											</li>
+
+											<li class="list-group-item">161. श्री विशद श्रमण चर्या <a
+													href="../assets/pdf/Vishad Shrman Charya.pdf" download><i class="fa fa-file-pdf-o"
+														aria-hidden="true"></i></a></li>
+											<li class="list-group-item">162. श्री सिद्धचर्क विधान <a
+													href="../assets/pdf/visad sidchakrya vidhan.pdf" download><i class="fa fa-file-pdf-o"
+														aria-hidden="true"></i></a></li>
+											<li class="list-group-item">163. श्री सिद्धचर्क विधान -2 <a
+													href="../assets/pdf/visad sidchakrya vidhan 28=7-2021.pdf" download><i
+														class="fa fa-file-pdf-o" aria-hidden="true"></i></a>
+											</li>
+											<li class="list-group-item">164. सोलहकारण भावना <a href="../assets/pdf/solah karan.pdf"
+													download><i class="fa fa-file-pdf-o" aria-hidden="true"></i></a></li>
+
+
+											<li class="list-group-item">165. श्री सिद्धचक्र विधान पूजा (लघु) <a
+													href="../assets/pdf/visad sidchakrya vidhan 28=7-2021.pdf" download><i
+														class="fa fa-file-pdf-o" aria-hidden="true"></i></a>
+											</li>
+											<li class="list-group-item">166. संगीत प्रसून (भजन) <a href="../assets/pdf/Document 17.pdf"
+													download><i class="fa fa-file-pdf-o" aria-hidden="true"></i></a></li>
+
+
+											<li class="list-group-item">167. श्री आदिनाथ विधान <a href="../assets/pdf/Adinath Vidhan 2022.pdf"
+													download><i class="fa fa-file-pdf-o" aria-hidden="true"></i></a></li>
+											<li class="list-group-item">168. श्री बाहुबली विधान <a
+													href="../assets/pdf/Shri Bahubali Vidhan (Hindi-Sanskrit).pdf" download><i
+														class="fa fa-file-pdf-o" aria-hidden="true"></i></a>
+											</li>
+											<li class="list-group-item">169. श्री भरतेश्वर स्वामी मंडल विधान <a
+													href="../assets/pdf/bhartshawar swami.pdf" download><i class="fa fa-file-pdf-o"
+														aria-hidden="true"></i></a></li>
+											<li class="list-group-item">170. श्री स्वयम्भू स्तोत्र <a
+													href="../assets/pdf/स्वयम्भू स्तोत्र.pdf" download><i class="fa fa-file-pdf-o"
+														aria-hidden="true"></i></a></li>
+											<li class="list-group-item">171. दीप अर्चना -1 <a href="../assets/pdf/deep archna part-1.pdf"
+													download><i class="fa fa-file-pdf-o" aria-hidden="true"></i></a></li>
+											<li class="list-group-item">172. दीप अर्चना -2<a href="../assets/pdf/deep archna part-2.pdf"
+													download><i class="fa fa-file-pdf-o" aria-hidden="true"></i></a></li>
+											<li class="list-group-item">173. भजन - 2<a href="../assets/pdf/bhajan -2.pdf" download><i
+														class="fa fa-file-pdf-o" aria-hidden="true"></i></a></li>
+											<li class="list-group-item">174. श्री पंचमेरु विधान <a href="../assets/pdf/Punch Meru Vidhan.pdf"
+													download><i class="fa fa-file-pdf-o" aria-hidden="true"></i></a></li>
+											<li class="list-group-item">175. श्री पंचमेरु विधान <a
+													href="../assets/pdf/Punch Meru Vidhan-5.pdf" download><i class="fa fa-file-pdf-o"
+														aria-hidden="true"></i></a></li>
+											<li class="list-group-item">176. श्री स्वर्ग लोक जिनालय विधान <a
+													href="../assets/pdf/Swarg Lok Jinalya Vidhan.pdf" download><i class="fa fa-file-pdf-o"
+														aria-hidden="true"></i></a></li>
+											<li class="list-group-item">177. श्री शान्ति भक्ति आराधना <a
+													href="../assets/pdf/Bhakti Aradhana Final Book 2021-1.pdf" download><i
+														class="fa fa-file-pdf-o" aria-hidden="true"></i></a>
+											</li>
+											<li class="list-group-item">178. श्री तत्वार्थ सूत्र विधान <a
+													href="../assets/pdf/TATVARTH FILE-2021.pdf" download><i class="fa fa-file-pdf-o"
+														aria-hidden="true"></i></a></li>
+											<li class="list-group-item">179. श्री रतनत्रय विधान <a href="../assets/pdf/ratantray.pdf"
+													download><i class="fa fa-file-pdf-o" aria-hidden="true"></i></a></li>
+
+
+
+											<li class="list-group-item">181. श्री साप्ताहिक विधान (लघु ) <a
+													href="../assets/pdf/9 Vidhan - 2023.pdf" download><i class="fa fa-file-pdf-o"
+														aria-hidden="true"></i></a></li>
+											<li class="list-group-item">182. श्री चौबीस तीर्थंकर विधान (लघु )<a
+													href="../assets/pdf/24 Tithankar Vidhan Laghu-1.pdf" download><i class="fa fa-file-pdf-o"
+														aria-hidden="true"></i></a></li>
+											<li class="list-group-item">183. श्री चौसठ रिद्धि विधान -2 <a href="../assets/pdf/64 Ridhi-2.pdf"
+													download><i class="fa fa-file-pdf-o" aria-hidden="true"></i></a></li>
+											<li class="list-group-item">184. श्री सम्मेद शिखर विधान <a href="../assets/pdf/101.pdf"
+													download><i class="fa fa-file-pdf-o" aria-hidden="true"></i></a></li>
+											<li class="list-group-item">185. श्री सम्मेद शिखर कूट पूजन विधान <a
+													href="../assets/pdf/kut pujan final.pdf" download><i class="fa fa-file-pdf-o"
+														aria-hidden="true"></i></a></li>
+
+											<li class="list-group-item">187. श्री आचार्य बिम्ब विधान <a
+													href="../assets/pdf/Aacharya Bimb Vidhan.pdf" download><i class="fa fa-file-pdf-o"
+														aria-hidden="true"></i></a></li>
+											<li class="list-group-item">188. आरती संग्रह <a href="../assets/pdf/Aarti Sanghra.pdf" download><i
+														class="fa fa-file-pdf-o" aria-hidden="true"></i></a></li>
+
+
+											<li class="list-group-item">189. अमृत सिद्धि व्रत <a
+													href="../assets/pdf/amrit siddhi (1-2-23).pdf" download><i class="fa fa-file-pdf-o"
+														aria-hidden="true"></i></a></li>
+											<li class="list-group-item">190. श्री गणधर विलय विधान <a
+													href="../assets/pdf/Gandhar Vilya Poojan Vidhan.pdf" download><i class="fa fa-file-pdf-o"
+														aria-hidden="true"></i></a></li>
+											<li class="list-group-item">191. जिंदगी क्या है ? <a href="../assets/pdf/jindagi (21-2-23).pdf"
+													download><i class="fa fa-file-pdf-o" aria-hidden="true"></i></a></li>
+											<li class="list-group-item">192. श्री कल्पद्रुम महामण्डल विधान <a
+													href="../assets/pdf/laghu Kalpdrum Vidhan-2.pdf" download><i class="fa fa-file-pdf-o"
+														aria-hidden="true"></i></a></li>
+
+
+											<li class="list-group-item">193. श्री जिन सहस्त्रनाम , सम्मेद शिखर कूट पूजन,
+												श्री भक्तामर विधान, कल्याण मंदिर स्त्रोत्र विधान <a
+													href="../assets/pdf/1008 Mantra Jinsahstranaam vidhan 2021 last.pdf" download><i
+														class="fa fa-file-pdf-o" aria-hidden="true"></i></a>
+											</li>
+											<li class="list-group-item">194. श्रीजिन सहस्त्रनाम विधान (लघु )<a
+													href="../assets/pdf/Laghu Sehesranam.pdf" download><i class="fa fa-file-pdf-o"
+														aria-hidden="true"></i></a></li>
+											<li class="list-group-item">195. श्री मुनि सुव्रतनाथ विधान <a
+													href="../assets/pdf/Munisuvrat Vidhan 2022.pdf" download><i class="fa fa-file-pdf-o"
+														aria-hidden="true"></i></a></li>
+											<li class="list-group-item">196. श्री पुष्पदन्त विधान <a
+													href="../assets/pdf/Pushpdanth Vidhan 2022.pdf" download><i class="fa fa-file-pdf-o"
+														aria-hidden="true"></i></a></li>
+											<li class="list-group-item">197. श्री शांतिनाथ विधान <a
+													href="../assets/pdf/Shantinath Vidhan 2023-2.pdf" download><i class="fa fa-file-pdf-o"
+														aria-hidden="true"></i></a></li>
+
+
+											<li class="list-group-item">198. श्री नंनिदशवर विधान (संस्कृत) <a
+													href="../assets/pdf/nandeswer (6-1-23).pdf" download><i class="fa fa-file-pdf-o"
+														aria-hidden="true"></i></a></li>
+											<li class="list-group-item">199. श्री २४ तीर्थंकर निर्वाण भक्ति विधान <a
+													href="../assets/pdf/Nirwan Kshetra-1.pdf" download><i class="fa fa-file-pdf-o"
+														aria-hidden="true"></i></a></li>
+											<li class="list-group-item">200. श्री विशद सन्धया वंदन<a
+													href="../assets/pdf/Sandhya Vandan 2022-1.pdf" download><i class="fa fa-file-pdf-o"
+														aria-hidden="true"></i></a></li>
+
+											<li class="list-group-item">201. श्री णमोकार विधान <a
+													href="../assets/pdf/Shri Namokar Vidhan 2022-5.pdf" download><i class="fa fa-file-pdf-o"
+														aria-hidden="true"></i></a></li>
+											<li class="list-group-item">202. श्री तत्वार्थ सूत्र व्रत विधि <a
+													href="../assets/pdf/tatwarth book 19-1-23.pdf" download><i class="fa fa-file-pdf-o"
+														aria-hidden="true"></i></a></li>
+											<li class="list-group-item">203. श्री विमल सागर विधान <a
+													href="../assets/pdf/Vimal Sagar Vidhan.pdf" download><i class="fa fa-file-pdf-o"
+														aria-hidden="true"></i></a></li>
+											<li class="list-group-item">204. याग मंडल विधान <a
+													href="../assets/pdf/yagyamandal final (27-3-23).pdf" download><i class="fa fa-file-pdf-o"
+														aria-hidden="true"></i></a></li>
+
+
+											<li class="list-group-item">205. लघु प्रतिक्रमण <a href="../assets/pdf/laghu pratikaranam.pdf"
+													download><i class="fa fa-file-pdf-o" aria-hidden="true"></i></a></li>
+											<li class="list-group-item">206. श्री विशद वर्णमाला <a href="../assets/pdf/vishad varnmala.pdf"
+													download><i class="fa fa-file-pdf-o" aria-hidden="true"></i></a></li>
+											<li class="list-group-item">207. श्री विशद वर्णमाला <a href="../assets/pdf/yogsar book.pdf"
+													download><i class="fa fa-file-pdf-o" aria-hidden="true"></i></a></li>
+											<li class="list-group-item">208. श्री बड़ा चौबीसी विधान <a
+													href="../assets/pdf/bda  chobise  vidhan.pdf" download><i class="fa fa-file-pdf-o"
+														aria-hidden="true"></i></a></li>
+											<li class="list-group-item">209. श्री निर्वाण भक्ति विधान <a
+													href="../assets/pdf/Nirvan Bhadti vidhan 1.pdf" download><i class="fa fa-file-pdf-o"
+														aria-hidden="true"></i></a></li>
+											<li class="list-group-item">210. श्री विशद मुक्तावली <a href="../assets/pdf/Vishad Muktavali.pdf"
+													download><i class="fa fa-file-pdf-o" aria-hidden="true"></i></a></li>
+											<li class="list-group-item">211. श्री पारसनाथ विधान <a
+													href="../assets/pdf/cha---- paras nath vidhan.pdf" download><i class="fa fa-file-pdf-o"
+														aria-hidden="true"></i></a></li>
+											<li class="list-group-item">212. श्री जिन गुण सम्पत्ति विधान <a
+													href="../assets/pdf/Jin Gun Sampati Vidhan.pdf" download><i class="fa fa-file-pdf-o"
+														aria-hidden="true"></i></a></li>
+											<li class="list-group-item">213. श्री वागन्हारु पार्श्वनाथ विधान <a
+													href="../assets/pdf/Vaganharu Parashnath vidhan.pdf" download><i class="fa fa-file-pdf-o"
+														aria-hidden="true"></i></a></li>
+											<li class="list-group-item">214. श्री नेमिनाथ विधान <a
+													href="../assets/pdf/Neminath Vidhan 2023.pdf" download><i class="fa fa-file-pdf-o"
+														aria-hidden="true"></i></a></li>
+											<li class="list-group-item">215. श्री शांतिनाथ पंचकल्याण विधान<a
+													href="../assets/pdf/Shantinath Panchkalyan Vidhan 2023-1.pdf" download><i
+														class="fa fa-file-pdf-o" aria-hidden="true"></i></a>
+											</li>
+											<li class="list-group-item">216. श्री नवदेवता पूजन महामंडल विधान (लघु)<a
+													href="../assets/pdf/Chota Shri Navdevta Pujan Mahamandal Vidhan.pdf" download><i
+														class="fa fa-file-pdf-o" aria-hidden="true"></i></a>
+											</li>
+											<li class="list-group-item">217. श्री पार्श्वनाथ विधान<a
+													href="../assets/pdf/Parasnath Vidhan Vigh..pdf" download><i class="fa fa-file-pdf-o"
+														aria-hidden="true"></i></a></li>
+
+
+
+											<li class="list-group-item">218. श्री 5 तीर्थ विधान<a href="../assets/pdf/5 Teerth.pdf"
+													download><i class="fa fa-file-pdf-o" aria-hidden="true"></i></a></li>
+											<li class="list-group-item">219. श्री अक्षय व्रत सौभाग्य दशमी विधान<a
+													href="../assets/pdf/Akshay varat sobhagya dashmi.pdf" download><i class="fa fa-file-pdf-o"
+														aria-hidden="true"></i></a></li>
+											<li class="list-group-item">220. छोटा श्री नवदेवता पूजन महामंडल विधान <a
+													href="../assets/pdf/Chota Shri Navdevta Pujan Mahamandal Vidhan.pdf" download><i
+														class="fa fa-file-pdf-o" aria-hidden="true"></i></a>
+											</li>
+											<li class="list-group-item">221. श्री विशद पंचागम 1 <a href="../assets/pdf/Vishad Panchagam 1.pdf"
+													download><i class="fa fa-file-pdf-o" aria-hidden="true"></i></a></li>
+
+											<li class="list-group-item">222. श्री योगसार <a href="../assets/pdf/yogsar book.pdf" download><i
+														class="fa fa-file-pdf-o" aria-hidden="true"></i></a></li>
+											<li class="list-group-item">223. भक्ति की महिमा <a href="../assets/pdf/bhakti ki mahima.pdf"
+													download><i class="fa fa-file-pdf-o" aria-hidden="true"></i></a></li>
+											<li class="list-group-item">224. श्री आदिनाथ विधान <a
+													href="../assets/pdf/shri aadinath vidhan.pdf" download><i class="fa fa-file-pdf-o"
+														aria-hidden="true"></i></a></li>
+											<li class="list-group-item">225. श्री भक्ताम्बर विधान <a
+													href="../assets/pdf/shri bhaktambar vidhan.pdf" download><i class="fa fa-file-pdf-o"
+														aria-hidden="true"></i></a></li>
+											<li class="list-group-item">226. श्री चन्द्र प्रभु विधान <a
+													href="../assets/pdf/shri chander prabhu vidhan.pdf" download><i class="fa fa-file-pdf-o"
+														aria-hidden="true"></i></a></li>
+											<li class="list-group-item">227. श्री चौबीस तीर्थंकर विधान <a
+													href="../assets/pdf/shri chaubis thirthankar vidhan.pdf" download><i class="fa fa-file-pdf-o"
+														aria-hidden="true"></i></a></li>
+											<li class="list-group-item">228. श्री चौसठ ऋद्धि विधान <a
+													href="../assets/pdf/shri chausath ridhi vidhan.pdf" download><i class="fa fa-file-pdf-o"
+														aria-hidden="true"></i></a></li>
+											<li class="list-group-item">229. श्री कल्याण मंदिर स्त्रोत विधान <a
+													href="../assets/pdf/shri kalyan mandir strotar vidhan.pdf" download><i
+														class="fa fa-file-pdf-o" aria-hidden="true"></i></a>
+											</li>
+											<li class="list-group-item">230. श्री लक्ष्मंगल पूजन विधान <a
+													href="../assets/pdf/shri lakmangal pujan vidhan.pdf" download><i class="fa fa-file-pdf-o"
+														aria-hidden="true"></i></a></li>
+											<li class="list-group-item">231. श्री महावीर स्वामी पूजन विधान <a
+													href="../assets/pdf/shri mahavir swami pujan vidhan.pdf" download><i class="fa fa-file-pdf-o"
+														aria-hidden="true"></i></a></li>
+											<li class="list-group-item">232. श्री मल्लिनाथ विधान <a
+													href="../assets/pdf/shri mallinath vidhan.pdf" download><i class="fa fa-file-pdf-o"
+														aria-hidden="true"></i></a></li>
+											<li class="list-group-item">233. श्री मुनिसुव्रत विधान <a
+													href="../assets/pdf/shri munisuvrat vidhan.pdf" download><i class="fa fa-file-pdf-o"
+														aria-hidden="true"></i></a></li>
+											<li class="list-group-item">234. श्री नामिनाथ विधान <a
+													href="../assets/pdf/shri naminath vidhan.pdf" download><i class="fa fa-file-pdf-o"
+														aria-hidden="true"></i></a></li>
+											<li class="list-group-item">235. श्री नमोकार मंत्र विधान (लघु) <a
+													href="../assets/pdf/shri namokar mantra vidhan laghu.pdf" download><i class="fa fa-file-pdf-o"
+														aria-hidden="true"></i></a>
+											</li>
+											<li class="list-group-item">236. श्री साप्ताहिक विधान <a
+													href="../assets/pdf/shri saptahik vidhan.pdf" download><i class="fa fa-file-pdf-o"
+														aria-hidden="true"></i></a></li>
+											<li class="list-group-item">237. श्री सिद्ध परमेष्ठी विधान <a
+													href="../assets/pdf/shri sidh parmeshthi vidhan.pdf" download><i class="fa fa-file-pdf-o"
+														aria-hidden="true"></i></a></li>
+											<li class="list-group-item">238. श्री वासुपूज्य विधान <a
+													href="../assets/pdf/shri vasu pujay vidhan.pdf" download><i class="fa fa-file-pdf-o"
+														aria-hidden="true"></i></a></li>
+											<li class="list-group-item">239. श्री विशद महाअर्चना विधान <a
+													href="../assets/pdf/Vishad maarchna Vidhan.pdf" download><i class="fa fa-file-pdf-o"
+														aria-hidden="true"></i></a></li>
+											<li class="list-group-item">240. श्री विशद अभिनव कल्पतरु महामण्डल विधान <a
+													href="../assets/pdf/ABHINOV KLPTRU VIDHAN 2024.pdf" download><i class="fa fa-file-pdf-o"
+														aria-hidden="true"></i></a></li>
+
+											<li class="list-group-item">241. श्री सिद्ध चक्र विधान <a
+													href="../assets/pdf/LAGHU SHIDHA CHARK VIDHAN 2024 FINAL.pdf" download><i
+														class="fa fa-file-pdf-o" aria-hidden="true"></i></a>
+											</li>
+											<li class="list-group-item">242. श्री विशद विषापाहार विधान <a
+													href="../assets/pdf/vishapahar-2.pdf" download><i class="fa fa-file-pdf-o"
+														aria-hidden="true"></i></a></li>
+											<li class="list-group-item">243. श्री विशद द्रोणगिरि आराधना <a
+													href="../assets/pdf/DORNGIRI VIDHAN 2024 FINAL.pdf" download><i class="fa fa-file-pdf-o"
+														aria-hidden="true"></i></a></li>
+											<li class="list-group-item">244.. श्री विशद मुनिसुब्रत विधान <a
+													href="../assets/pdf/Munisobirt Vidhan 2019.pdf" download><i class="fa fa-file-pdf-o"
+														aria-hidden="true"></i></a></li>
+
+											<li class="list-group-item">245. १००८ मन्त्र जिनसहस्रनाम विधान २०२४ <a
+													href="../assets/pdf/1008 Mantra Jinsahstranaam vidhan 2024 Final1.pdf" download><i
+														class="fa fa-file-pdf-o" aria-hidden="true"></i></a>
+											</li>
+											<li class="list-group-item">246. भक्ति आराधना पुस्तक २०२३ <a
+													href="../assets/pdf/Bhakti Aradhana Final Book 2023.pdf" download><i class="fa fa-file-pdf-o"
+														aria-hidden="true"></i></a></li>
+											<li class="list-group-item">247. जरा सोचो तो <a href="../assets/pdf/jara socho to.pdf" download><i
+														class="fa fa-file-pdf-o" aria-hidden="true"></i></a></li>
+											<li class="list-group-item">248. लघु सिद्ध चक्र विधान २०२४ <a
+													href="../assets/pdf/LAGHU SHIDHA CHARK VIDHAN 2024 FINAL.pdf" download><i
+														class="fa fa-file-pdf-o" aria-hidden="true"></i></a>
+											</li>
+											<li class="list-group-item">249. सामोसारण विधान २०२५ <a
+													href="../assets/pdf/PDF SAMOSARN VIDHAN FINAL 2025.pdf" download><i class="fa fa-file-pdf-o"
+														aria-hidden="true"></i></a></li>
+											<li class="list-group-item">250. श्री आदिनाथ विधान लघु <a
+													href="../assets/pdf/shri aadinath vidhan laghu.pdf" download><i class="fa fa-file-pdf-o"
+														aria-hidden="true"></i></a></li>
+											<li class="list-group-item">251. श्री आकाश पंचमी विधान <a
+													href="../assets/pdf/shri aakash punchmi vidhan.pdf" download><i class="fa fa-file-pdf-o"
+														aria-hidden="true"></i></a></li>
+											<li class="list-group-item">252. श्री बृहत्त जैन शब्दावरण <a
+													href="../assets/pdf/shri brahat jain shabdavaran.pdf" download><i class="fa fa-file-pdf-o"
+														aria-hidden="true"></i></a></li>
+											<li class="list-group-item">253. श्री चन्द्रप्रभु विधान लघु <a
+													href="../assets/pdf/shri chandprabhu vidhan laghu.pdf" download><i class="fa fa-file-pdf-o"
+														aria-hidden="true"></i></a></li>
+											<li class="list-group-item">254. श्री चौबीसी विधान लघु <a
+													href="../assets/pdf/shri chaubisi vidhan laghu.pdf" download><i class="fa fa-file-pdf-o"
+														aria-hidden="true"></i></a></li>
+											<li class="list-group-item">255. श्री चौंसठ ऋद्धि विधान लघु <a
+													href="../assets/pdf/shri chausath ridhi vidhan laghu.pdf" download><i class="fa fa-file-pdf-o"
+														aria-hidden="true"></i></a>
+											</li>
+											<li class="list-group-item">256. श्री लोक मंगल पूज्य विधान <a
+													href="../assets/pdf/shri lok mangal pujya vidhan.pdf" download><i class="fa fa-file-pdf-o"
+														aria-hidden="true"></i></a></li>
+											<li class="list-group-item">257. श्री लघु नवकार विधान <a
+													href="../assets/pdf/shri lugh naomkar vidhan.pdf" download><i class="fa fa-file-pdf-o"
+														aria-hidden="true"></i></a></li>
+											<li class="list-group-item">258. श्री महावीर विधान लघु <a
+													href="../assets/pdf/shri mahavir vidhan laghu.pdf" download><i class="fa fa-file-pdf-o"
+														aria-hidden="true"></i></a></li>
+											<li class="list-group-item">259. श्री मुनिसुव्रत विधान लघु <a
+													href="../assets/pdf/shri munisuvrat vidhan laghu.pdf" download><i class="fa fa-file-pdf-o"
+														aria-hidden="true"></i></a></li>
+											<li class="list-group-item">260. श्री नामीनाथ विधान लघु <a
+													href="../assets/pdf/shri naminath vidhan laghu.pdf" download><i class="fa fa-file-pdf-o"
+														aria-hidden="true"></i></a></li>
+											<li class="list-group-item">261. श्री पद्म प्रभु विधान लघु <a
+													href="../assets/pdf/shri padam prabhu vidhan laghu.pdf" download><i class="fa fa-file-pdf-o"
+														aria-hidden="true"></i></a></li>
+											<li class="list-group-item">262. श्री पुष्पदंत विधान लघु <a
+													href="../assets/pdf/shri pushpdant vidhan laghu.pdf" download><i class="fa fa-file-pdf-o"
+														aria-hidden="true"></i></a></li>
+											<li class="list-group-item">263. श्री सिद्ध परमेष्ठी विधान लघु <a
+													href="../assets/pdf/shri sidh parmesthi vidhan laghu.pdf" download><i class="fa fa-file-pdf-o"
+														aria-hidden="true"></i></a>
+											</li>
+											<li class="list-group-item">264. श्री वासुपूज्य विधान लघु <a
+													href="../assets/pdf/shri vaasupujay vidhan laghu.pdf" download><i class="fa fa-file-pdf-o"
+														aria-hidden="true"></i></a></li>
+											<li class="list-group-item">265. श्री विराग सागर जी महाराज <a
+													href="../assets/pdf/shri virag sagar ji maharaj.pdf" download><i class="fa fa-file-pdf-o"
+														aria-hidden="true"></i></a></li>
+											<li class="list-group-item">266. श्री विशद चालीसा संग्रह <a
+													href="../assets/pdf/shri vishad chalisa sangrah.pdf" download><i class="fa fa-file-pdf-o"
+														aria-hidden="true"></i></a></li>
+											<li class="list-group-item">267. श्री विषपाहर स्तोत्र<a href="../assets/pdf/vishapahar pdf.pdf"
+													download><i class="fa fa-file-pdf-o" aria-hidden="true"></i></a></li>
+											<li class="list-group-item">268. सुभाषित श्लोक<a href="../assets/pdf/Shubhashis pdf.pdf"
+													download><i class="fa fa-file-pdf-o" aria-hidden="true"></i></a> </li>
+											<li class="list-group-item">269. रोट तीज व्रत पूजा <a href="../assets/pdf/Rot Teej Vrat Pooja.pdf"
+													download><i class="fa fa-file-pdf-o" aria-hidden="true"></i></a></li>
+											<li class="list-group-item">270. साप्ताहिक विधान - 2023 <a
+													href="../assets/pdf/saptahik vidhan - 2023.pdf" download><i class="fa fa-file-pdf-o"
+														aria-hidden="true"></i></a></li>
+											<li class="list-group-item">271. वीतराग शासन जयंती हो विधान <a
+													href="../assets/pdf/vitrag jayant vidhan.pdf" download><i class="fa fa-file-pdf-o"
+														aria-hidden="true"></i></a></li>
+											<li class="list-group-item">272. माक्षी पूजा
+												<a href="../assets/pdf/Makshi Pooja.pdf" download>
+													<i class="fa fa-file-pdf-o" aria-hidden="true"></i>
+												</a>
+											</li>
+
+											<li class="list-group-item">273. पार्श्वनाथ स्तोत्र
+												<a href="../assets/pdf/Parshwnath Stotra.pdf" download>
+													<i class="fa fa-file-pdf-o" aria-hidden="true"></i>
+												</a>
+											</li>
+
+											<li class="list-group-item">274. श्रावक क्रिया सार
+												<a href="../assets/pdf/Shravak Kriya Sar.pdf" download>
+													<i class="fa fa-file-pdf-o" aria-hidden="true"></i>
+												</a>
+											</li>
+											<li class="list-group-item">275. TATTVA VICHAR SAR INER
+												<a href="../assets/pdf/Tattva Vichar Sar Iner.pdf" download>
+													<i class="fa fa-file-pdf-o" aria-hidden="true"></i>
+												</a>
+											</li>
+											<br />
+										</ol>
+									</div>
+									<div class="col-lg-4">
+										<ol class="list-group" start="161">
+											<img class="img-fluid" src="../assets/img/standing.jpg">
+											<div class="devider"></div>
+											<h3 class="m-0 text-center">ग्रंथ</h3>
+											<div class="devider"></div>
+
+											<li class="list-group-item">1. श्री विशद अनुप्रेक्षा(सोलहकारण भावना ग्रंथ)<a
+													href="../assets/pdf/Vishad Anupreksha book-2.pdf" download><i class="fa fa-file-pdf-o"
+														aria-hidden="true"></i></a></li>
+											<li class="list-group-item">2. श्री विषद पंचागम्<a href="../assets/pdf/Vishad Panchagam 1.pdf"
+													download><i class="fa fa-file-pdf-o" aria-hidden="true"></i></a></li>
+											<li class="list-group-item">3. श्री विशद संग्रह <a href="../assets/pdf/Vishad Sangrah pdf.pdf"
+													download><i class="fa fa-file-pdf-o" aria-hidden="true"></i></a></li>
+											<li class="list-group-item">4. आगम के लाल छोटेलाल <a href="../assets/pdf/aagm ki lal.pdf"
+													download><i class="fa fa-file-pdf-o" aria-hidden="true"></i></a></li>
+											<li class="list-group-item">5. प्रवचन पर्व <a href="../assets/pdf/parv parvachan.pdf" download><i
+														class="fa fa-file-pdf-o" aria-hidden="true"></i></a></li>
+											<li class="list-group-item">6. विशद ज्ञान ज्योति <a
+													href="../assets/pdf/Vishad Gyan Joyti Nov. Dec.pdf" download><i class="fa fa-file-pdf-o"
+														aria-hidden="true"></i></a></li>
+											<li class="list-group-item">7. श्री मोक्ष पथगामी (जीवनी ) <a
+													href="../assets/pdf/Mochk Pathgami (Jivni).pdf" download><i class="fa fa-file-pdf-o"
+														aria-hidden="true"></i></a></li>
+											<li class="list-group-item">8. श्री पदम् पुराण (राम चरित्र) <a
+													href="../assets/pdf/पदम् पुराण (राम चरित्र).pdf" download><i class="fa fa-file-pdf-o"
+														aria-hidden="true"></i></a></li>
+											<li class="list-group-item">9. श्री तीर्थंकर वर्धमान,विद्यानंदजी <a
+													href="../assets/pdf/तीर्थंकर वर्धमान,विद्यानंदजी.pdf" download><i class="fa fa-file-pdf-o"
+														aria-hidden="true"></i></a></li>
+											<li class="list-group-item">10. धर्म-के-दश-लक्षण <a href="../assets/pdf/धर्म-के-दश-लक्षण.pdf"
+													download><i class="fa fa-file-pdf-o" aria-hidden="true"></i></a></li>
+											<li class="list-group-item">11. अढ़ाई द्वीप चित्र <a href="../assets/pdf/Adhai Dwip map.pdf"
+													download><i class="fa fa-file-pdf-o" aria-hidden="true"></i></a></li>
+											<li class="list-group-item">12. अधो लोक चित्र <a href="../assets/pdf/AdhoLoke map.pdf" download><i
+														class="fa fa-file-pdf-o" aria-hidden="true"></i></a></li>
+											<li class="list-group-item">13. जम्बूद्वीप चित्र <a href="../assets/pdf/Jambudwip map.pdf"
+													download><i class="fa fa-file-pdf-o" aria-hidden="true"></i></a></li>
+										</ol>
+
+									</div>
+
+								</div>
+							</div>
+						</div>
+					</section>
+
+				</div><!-- Left Panel end -->
+
+
+			</div>
+		</div>
+
+
+		<!-- Footer -->
+		<footer class="py-4">
+			<div class="container">
+				<span class="developed-by">
+					Designed by Pankaj Jain and Mukesh kumar (9911535969)
+				</span>
+				<ul class="footer-nav">
 					<li class="nav-item active">
-                        <a class="nav-link" href="../pages/download.html">विधान<span class="sr-only">(current)</span></a>
-                    </li>			
-					<li class="nav-item ">
-                        <a class="nav-link" href="../pages/video.html">वीडिओ </a>
-                    </li>			
-					
-                    <li class="nav-item">
-                        <a class="nav-link" href="../pages/gallery.html">गैलरी</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="../pages/contact-us.html">हमसे संपर्क करे</a>
-                    </li>
-                </ul>
-            </div>
-        </nav>
-        <!-- Navigation end -->
+						<a class="nav-link" href="../index.html">जीवनी</a>
+					</li>
+					<li>|</li>
+					<li class="nav-item">
+						<a class="nav-link" href="../pages/sangh.html">संघ</a>
+					</li>
+					<li>|</li>
+					<li class="nav-item">
+						<a class="nav-link" href="../pages/sahitya.html">ग्रंथ</a>
+					</li>
+					<li>|</li>
+					<li class="nav-item">
+						<a class="nav-link" href="../pages/download.html">विधान</a>
+					</li>
+					<li>|</li>
+					<li class="nav-item">
+						<a class="nav-link" href="pages/video.html">वीडिओ</a>
+					</li>
+					<li>|</li>
 
-        <div class="marquee inner-marquee" style="margin-top: 10px;">
-          <ul class="list-inline">
-              <li>णमो    अरिहंताणं   णमो    सिद्धाणं   णमो   आयरियाणं     णमो उवज्झायाणं 	णमो लोए सव्व साहूणं</li>
-              <li>णमो    अरिहंताणं   णमो    सिद्धाणं   णमो   आयरियाणं     णमो उवज्झायाणं 	णमो लोए सव्व साहूणं</li>
-          </ul>
-        </div>
-
-    </header>
-
-    <!-- Page Content -->
-    <div class="container mt-3">
-      <div class="devider"></div>
-      <h3 class="m-0 text-center">विधान</h3>
-      <div class="devider"></div>
-        <div class="row">
-            <div class="col-lg-12 left-side">
-              
-			    <section class="intro">
-
-                    <div class="card my-4">
-					<input type="text" id="searchInput" placeholder="Search by vidhan name" oninput="searchBooks()"/>
-                        <div class="card-body">
-                          <div class="row">
-                              <div class="col-lg-4">   
-							   
-                                <ol class="list-group">
-									<li class="list-group-item">1. विधान संग्रह -1  <a href="../assets/pdf/Vidhan Sangrah_1.pdf" download><i class="fa fa-file-pdf-o" aria-hidden="true"></i></a></li>
-									<li class="list-group-item">2. विधान संग्रह -2 <a href="../assets/pdf/Vidhan Sangrah_2.pdf" download><i class="fa fa-file-pdf-o" aria-hidden="true"></i></a></li>
-									<li class="list-group-item">3. श्री विशद जिनवाणी संग्रह   <a href="../assets/pdf/Vishad jinvani sangrh 2012.pdf" download><i class="fa fa-file-pdf-o" aria-hidden="true"></i></a></li>						
-
-									<li class="list-group-item">4.  श्री विशद साप्ताहिक विधान  <a href="../assets/pdf/Vishad Sapte Sangrah Vidhan - Book 2020.pdf" download><i class="fa fa-file-pdf-o" aria-hidden="true"></i></a></li>
-									<li class="list-group-item">5. श्री विशद लघु 24 विधान  <a href="../assets/pdf/vishad laghu 24 vidhan.pdf" download><i class="fa fa-file-pdf-o" aria-hidden="true"></i></a></li>
-								
-									<li class="list-group-item">6. श्री आदिनाथ पूजन विधान  <a href="../assets/pdf/Sarv Mangal Dayad  Adhinath vidhan.pdf" download><i class="fa fa-file-pdf-o" aria-hidden="true"></i></a></li>
-									<li class="list-group-item">7. श्री आदिनाथ पंचकल्याणक विधान <a href="../assets/pdf/Adhinath 5 kiyank vidhan.pdf" download><i class="fa fa-file-pdf-o" aria-hidden="true"></i></a></li>
-									<li class="list-group-item">8. श्री बड़े बाबा विधान <a href="../assets/pdf/Bde baba vidhan.pdf" download><i class="fa fa-file-pdf-o" aria-hidden="true"></i></a></li>
-									<li class="list-group-item">9. श्री अजितनाथ विधान   <a href="../assets/pdf/Ajit nath vidhan.pdf" download><i class="fa fa-file-pdf-o" aria-hidden="true"></i></a></li>
-									<li class="list-group-item">10. श्री संभव नाथ विधान    <a href="../assets/pdf/Sambhav Nath Vidhan.pdf" download><i class="fa fa-file-pdf-o" aria-hidden="true"></i></a></li>
-									<li class="list-group-item">11. श्री अभिनन्दन विधान  <a href="../assets/pdf/Abhinandn nath.pdf" download><i class="fa fa-file-pdf-o" aria-hidden="true"></i></a></li>									
-									<li class="list-group-item">12. श्री सुमतिनाथ विधान  <a href="../assets/pdf/Sumati Nath Vidhan.pdf" download><i class="fa fa-file-pdf-o" aria-hidden="true"></i></a></li>
-									<li class="list-group-item">13. श्री पदम् प्रभु विधान  <a href="../assets/pdf/Padam prabhu vidhan.pdf" download><i class="fa fa-file-pdf-o" aria-hidden="true"></i></a></li>
-									<li class="list-group-item">14. श्री सुपार्श्व्नाथ विधान  <a href="../assets/pdf/Suparash Nath Vidhan.pdf" download><i class="fa fa-file-pdf-o" aria-hidden="true"></i></a></li>
-									<li class="list-group-item">15. श्री चंदाप्रभु विधान  <a href="../assets/pdf/chamtkark chandpraphu vidhan.pdf" download><i class="fa fa-file-pdf-o" aria-hidden="true"></i></a></li>
-									<li class="list-group-item">16. श्री चंद्रप्रभु देहार तिजारा विधान लघु <a href="../assets/pdf/Chandra_234.pdf" download><i class="fa fa-file-pdf-o" aria-hidden="true"></i></a></li>
-									<li class="list-group-item">17. श्री वासुपूज्य विधान<a href="../assets/pdf/Vasupujy_vidhan.pdf" download><i class="fa fa-file-pdf-o" aria-hidden="true"></i></a></li>
-									<li class="list-group-item">18. श्री अनन्तनाथ विधान <a href="../assets/pdf/Anantnath.pdf" download><i class="fa fa-file-pdf-o" aria-hidden="true"></i></a></li>  
-									
-									<li class="list-group-item">19. श्री धर्मनाथ विधान  <a href="../assets/pdf/Dharam Nath vidhan.pdf" download><i class="fa fa-file-pdf-o" aria-hidden="true"></i></a></li>
-									<li class="list-group-item">20. मनोकामनापूर्ण शांतिनाथ विधान  <a href="../assets/pdf/Shanti.pdf" download><i class="fa fa-file-pdf-o" aria-hidden="true"></i></a></li>
-									<li class="list-group-item">21. श्री शांतिनाथ विधान  <a href="../assets/pdf/Shri Shanti Nath.pdf" download><i class="fa fa-file-pdf-o" aria-hidden="true"></i></a></li>
-									<li class="list-group-item">22. श्री शान्ति भक्ति विधान    <a href="../assets/pdf/Shanti Bhakti.pdf" download><i class="fa fa-file-pdf-o" aria-hidden="true"></i></a></li>
-									<li class="list-group-item">23. श्री शांतिनाथ विधान पूजन    <a href="../assets/pdf/Bda_shanti_vidhan.pdf" download><i class="fa fa-file-pdf-o" aria-hidden="true"></i></a></li>
-									<li class="list-group-item">24. श्री शांति विधान (लघु) <a href="../assets/pdf/shanti vidhan laghu.pdf" download><i class="fa fa-file-pdf-o" aria-hidden="true"></i></a></li> 
-									<li class="list-group-item">25. श्री शांति कुन्थु अरहनाथ विधान   <a href="../assets/pdf/Shanti Khuntu arhnath vidhan.pdf" download><i class="fa fa-file-pdf-o" aria-hidden="true"></i></a></li>								
-									<li class="list-group-item">26. श्री अरहनाथ विधान  <a href="../assets/pdf/Araha nath vidhan.pdf" download><i class="fa fa-file-pdf-o" aria-hidden="true"></i></a></li>
-									<li class="list-group-item">27. श्री मल्लिनाथ विधान  <a href="../assets/pdf/Mallinath vidhan.pdf" download><i class="fa fa-file-pdf-o" aria-hidden="true"></i></a></li>
-									<li class="list-group-item">28. श्री मुनिसुव्रतनाथ विधान <a href="../assets/pdf/muni suvarth nath vidhan.pdf" download><i class="fa fa-file-pdf-o" aria-hidden="true"></i></a></li>
-										<li class="list-group-item">29. श्री नेमिनाथ पूजन विधान  <a href="../assets/pdf/Nemi nath vidhan.pdf" download><i class="fa fa-file-pdf-o" aria-hidden="true"></i></a></li>
-								
-									<li class="list-group-item">30. श्री चवंलेश्वर पार्श्वनाथ विधान  <a href="../assets/pdf/chavanleswer parash nath vidhan.pdf" download><i class="fa fa-file-pdf-o" aria-hidden="true"></i></a></li>
-									<li class="list-group-item">31. श्री पार्श्वनाथ पंचकल्याणक  विधान   <a href="../assets/pdf/Shri Parshnath panchkalyank vidhan.pdf" download><i class="fa fa-file-pdf-o" aria-hidden="true"></i></a></li>
-									
-								
-									<li class="list-group-item">32. श्री पार्श्वनाथ पूजन  विधान( लघु)   <a href="../assets/pdf/Parasnath Poojan Vidhan.pdf" download><i class="fa fa-file-pdf-o" aria-hidden="true"></i></a></li>
-								
-									<li class="list-group-item">33. श्री अहिक्षेत्र पार्श्वनाथ विधान <a href="../assets/pdf/paras nath ahishetra-2.pdf" download><i class="fa fa-file-pdf-o" aria-hidden="true"></i></a></li> 
-									<li class="list-group-item">34. श्री महावीर विधान   <a href="../assets/pdf/Mahaver vidhan.pdf" download><i class="fa fa-file-pdf-o" aria-hidden="true"></i></a></li>
-									
-									<li class="list-group-item">35. श्री महावीर विधान पूजा (लघु) <a href="../assets/pdf/Mahavir Vidhan pdf final.pdf" download><i class="fa fa-file-pdf-o" aria-hidden="true"></i></a></li>
-									
-									<li class="list-group-item">36. श्री महावीर समवशरण विधान  <a href="../assets/pdf/Mahaveer_Samoshran_Pooja_Vidhan.pdf" download><i class="fa fa-file-pdf-o" aria-hidden="true"></i></a></li>
-										<li class="list-group-item">37. श्री शिखरजी विधान <a href="../assets/pdf/1_sikhar_ji_vidhan1.pdf" download><i class="fa fa-file-pdf-o" aria-hidden="true"></i></a></li> 	
-									<li class="list-group-item">38. श्री भक्तामर विधान   <a href="../assets/pdf/Bhaktambar.pdf" download><i class="fa fa-file-pdf-o" aria-hidden="true"></i></a></li>
-									
-									<li class="list-group-item">39. श्री जिनसहस्त्रनाम विधान <a href="../assets/pdf/1008_NAM.pdf" download><i class="fa fa-file-pdf-o" aria-hidden="true"></i></a></li>
-									<li class="list-group-item">40. चन्दन षष्ठी विधान <a href="../assets/pdf/Chandan.pdf" download><i class="fa fa-file-pdf-o" aria-hidden="true"></i></a></li>
-									<li class="list-group-item">41. कर्म निर्झर विधान <a href="../assets/pdf/Karam Nirjar.pdf" download><i class="fa fa-file-pdf-o" aria-hidden="true"></i></a></li>
-									
-									
-									<li class="list-group-item">42. श्री सम्मेद शिखर चौबीस निर्वाण क्षेत्र  विधान  <a href="../assets/pdf/Nirvan Chaetr vidhan.pdf" download><i class="fa fa-file-pdf-o" aria-hidden="true"></i></a></li>
-									<li class="list-group-item">43. एक सौ सत्तर तीर्थंकर विधान   <a href="../assets/pdf/170 Tertkar  vidhan.pdf" download><i class="fa fa-file-pdf-o" aria-hidden="true"></i></a></li>
-									<li class="list-group-item">44. आराधना के सुमन ( पूजन) <a href="../assets/pdf/aaradhana ka suman.pdf" download><i class="fa fa-file-pdf-o" aria-hidden="true"></i></a></li>
-									<li class="list-group-item">45. आराध्य अर्चना पूजन <a href="../assets/pdf/Aarkdhay  archana pujn.pdf" download><i class="fa fa-file-pdf-o" aria-hidden="true"></i></a></li>
-									<li class="list-group-item">46. श्री अर्हन्त धर्मचक्र विधान   <a href="../assets/pdf/Arht dharm charkr  vidhan.pdf" download><i class="fa fa-file-pdf-o" aria-hidden="true"></i></a></li>
-									<li class="list-group-item">47. श्री चारित्र लब्धि विधान   <a href="../assets/pdf/Chatri Labdhi Vidhan-2013.pdf" download><i class="fa fa-file-pdf-o" aria-hidden="true"></i></a></li>
-									<li class="list-group-item">48. श्री नवदेता पूजन महामण्डल विधान (लघु)   <a href="../assets/pdf/Chota Shri Navdevta Pujan Mahamandal Vidhan.pdf" download><i class="fa fa-file-pdf-o" aria-hidden="true"></i></a></li>
-									<li class="list-group-item">49. श्री चारित्र शुद्धि विधान   <a href="../assets/pdf/Ctrit shudhi  vidhan.pdf" download><i class="fa fa-file-pdf-o" aria-hidden="true"></i></a></li>
-									<li class="list-group-item">50. श्री इंद्र धवज महामण्डल <a href="../assets/pdf/Indr dhavj vidhan.pdf" download><i class="fa fa-file-pdf-o" aria-hidden="true"></i></a></li>
-									<li class="list-group-item">51. श्री महामृत्युंजय विधान (लघु)  <a href="../assets/pdf/Laghu mahamriunjay vidhan.pdf" download><i class="fa fa-file-pdf-o" aria-hidden="true"></i></a></li>
-
-									<li class="list-group-item">52. श्री पंचकल्याणक पर्तिष्ठा विधान पूजन <a href="../assets/pdf/punchkalyanak.pdf" download><i class="fa fa-file-pdf-o" aria-hidden="true"></i></a></li>
-									<li class="list-group-item">53. श्री सम्यक आरधना विधान   <a href="../assets/pdf/Samayk aaradhana vidhan.pdf" download><i class="fa fa-file-pdf-o" aria-hidden="true"></i></a></li>
-									<li class="list-group-item">54. श्री समोशरण विधान   <a href="../assets/pdf/samosharn vidhan.pdf" download><i class="fa fa-file-pdf-o" aria-hidden="true"></i></a></li>
-
-									<li class="list-group-item">55. श्री श्रुत स्कन्ध विधान  पूजन <a href="../assets/pdf/Shrut Skand Pujan Vidhan 2018.pdf" download><i class="fa fa-file-pdf-o" aria-hidden="true"></i></a></li>
-									<li class="list-group-item">56. श्री चैत्य भक्ति विधान    <a href="../assets/pdf/Chatya bhakti.pdf" download><i class="fa fa-file-pdf-o" aria-hidden="true"></i></a></li>
-									<li class="list-group-item">57. श्रमण चर्या भाग - 1 <a href="../assets/pdf/sharaman_part_1.pdf" download><i class="fa fa-file-pdf-o" aria-hidden="true"></i></a></li>
-									<li class="list-group-item">58. श्रमण चर्या भाग - 2<a href="../assets/pdf/sharaman_part_2.pdf" download><i class="fa fa-file-pdf-o" aria-hidden="true"></i></a></li>
-									<li class="list-group-item">59. विशद अष्टापद विधान<a href="../assets/pdf/ashtapad.pdf" download><i class="fa fa-file-pdf-o" aria-hidden="true"></i></a></li>
-									<li class="list-group-item">60. विशद पंच परमेष्ठी विधान<a href="../assets/pdf/Punch Parmashthi Vidhan.pdf" download><i class="fa fa-file-pdf-o" aria-hidden="true"></i></a></li>
-									<li class="list-group-item">61. विशद पंच परमेष्ठी विधान -2<a href="../assets/pdf/Punch Parmashthi Vidhan-2.pdf" download><i class="fa fa-file-pdf-o" aria-hidden="true"></i></a></li>
-
-									<li class="list-group-item">62. विशद मौन एकादशी विधान <a href="../assets/pdf/Shri Mon Ekadashi Vrat Katha-2.pdf" download><i class="fa fa-file-pdf-o" aria-hidden="true"></i></a></li>
-									<li class="list-group-item">63. श्री कल्याण मंदिर स्तोत्र विधान <a href="../assets/pdf/Kalyan mandir.pdf" download><i class="fa fa-file-pdf-o" aria-hidden="true"></i></a></li>
-									<li class="list-group-item">64. विशद विषापहार स्तोत्र  महामण्डल विधान (संस्कृत )<a href="../assets/pdf/vishapa_har_2.pdf" download><i class="fa fa-file-pdf-o" aria-hidden="true"></i></a></li>
-									<li class="list-group-item">65. श्री विशद वास्तु विधान  <a href="../assets/pdf/VASTU_VIDHAN_PDF.pdf" download><i class="fa fa-file-pdf-o" aria-hidden="true"></i></a></li>  
-									<li class="list-group-item">66. श्री तत्त्वार्थसूत्र मंडल विधान (लघु ) विधान <a href="../assets/pdf/tatwarth_sutra_Final.pdf" download><i class="fa fa-file-pdf-o" aria-hidden="true"></i></a></li>
-									<li class="list-group-item">67. वृहत  स्वयम्भू  स्तोत्र<a href="../assets/pdf/suvym_bhu_24.pdf" download><i class="fa fa-file-pdf-o" aria-hidden="true"></i></a></li>
-								
-
-									<li class="list-group-item">68. श्री सम्मेद शिखर चौबीस निर्वाण क्षेत्र विधान  <a href="../assets/pdf/shikhar_ji_nirvan_pujan.pdf" download><i class="fa fa-file-pdf-o" aria-hidden="true"></i></a></li>
-									<li class="list-group-item">69. श्री शनिग्रहारिष्ट निवारक विधान <a href="../assets/pdf/shani_grh.pdf" download><i class="fa fa-file-pdf-o" aria-hidden="true"></i></a></li>
-									
-									
-										<li class="list-group-item">70. श्री कालसर्प दोष निवारक विधान <a href="../assets/pdf/kal_sarp_dos_vidhan_final.pdf" download><i class="fa fa-file-pdf-o" aria-hidden="true"></i></a></li>
-								
-									
-									 
-									<li class="list-group-item">71. श्री सरस्वती मंडल विधान(लघु)  <a href="../assets/pdf/saraswati_vidhan-sari-final.pdf" download><i class="fa fa-file-pdf-o" aria-hidden="true"></i></a></li> 
-
-
-									<li class="list-group-item">72. श्री विराग सागर पूजन विधान    <a href="../assets/pdf/g__virag_sagar_vidhan.pdf" download><i class="fa fa-file-pdf-o" aria-hidden="true"></i></a></li> 
-								
-
-									
-								 
-									<li class="list-group-item">73. विशद ऋषि मंडल विधान <a href="../assets/pdf/Rishi_Mandal_Vidhan.pdf" download><i class="fa fa-file-pdf-o" aria-hidden="true"></i></a></li>
-									<li class="list-group-item">74. श्री पुरन्दर व्रत विधान <a href="../assets/pdf/Purendar_vrat_Vidhan.pdf" download><i class="fa fa-file-pdf-o" aria-hidden="true"></i></a></li>
-									<li class="list-group-item">75. विशद निर्वाण भक्ति विधान   <a href="../assets/pdf/Nirvan_Bhadti_vidhan.pdf" download><i class="fa fa-file-pdf-o" aria-hidden="true"></i></a></li>
-
-
-
-									<li class="list-group-item">76. विशद क्षायिक नवलब्धि  विधान  <a href="../assets/pdf/NEW_BOOK__CHAYIK_LABDHI_2019.pdf" download><i class="fa fa-file-pdf-o" aria-hidden="true"></i></a></li>
-									<li class="list-group-item">77. श्री विशद भक्ति आराधना -1  <a href="../assets/pdf/Narnol Final 1-6-18.pdf" download><i class="fa fa-file-pdf-o" aria-hidden="true"></i></a></li>
-									<li class="list-group-item">78. श्री विशद लघु रतनत्रय विधान <a href="../assets/pdf/Shri Laghu Ratnetre Vidhan.pdf" download><i class="fa fa-file-pdf-o" aria-hidden="true"></i></a></li> 	
-									<li class="list-group-item">79. विशद स्तोत्र संग्रह  <a href="../assets/pdf/Stotra Bh.pdf" download><i class="fa fa-file-pdf-o" aria-hidden="true"></i></a></li> 	
-									<li class="list-group-item">80. लक्ष्मी प्राप्ति विधान<a href="../assets/pdf/lakshmi.pdf" download><i class="fa fa-file-pdf-o" aria-hidden="true"></i></a></li> 
-									<li class="list-group-item">81. श्री सम्यक ज्ञान विधान  <a href="../assets/pdf/Samyak Ghan Vidhan.pdf" download><i class="fa fa-file-pdf-o" aria-hidden="true"></i></a></li>
-									<li class="list-group-item">82. श्री ऋषि मंडल विधान  <a href="../assets/pdf/Risimandal Vidhan.pdf" download><i class="fa fa-file-pdf-o" aria-hidden="true"></i></a></li>
-									<li class="list-group-item">83. श्री पुण्यास्त्रव विधान <a href="../assets/pdf/Punya sarva  vidhan.pdf" download><i class="fa fa-file-pdf-o" aria-hidden="true"></i></a></li>
-									<li class="list-group-item">84. श्री णमोकार मंत्र, पंचमेरू, नंदीश्वर विधान  <a href="../assets/pdf/Panchmaru - Nandisheear.pdf" download><i class="fa fa-file-pdf-o" aria-hidden="true"></i></a></li>
-									<li class="list-group-item">85. श्री दिगम्बर जैन अतिशय क्षेत्र नेवटा पूजन आरती चालीसा  <a href="../assets/pdf/Nevta puja vidhan.pdf" download><i class="fa fa-file-pdf-o" aria-hidden="true"></i></a></li>
-								
-									<li class="list-group-item">86. श्री नवग्रह शांति विधान  <a href="../assets/pdf/Navgrah Vidhan (bda).pdf" download><i class="fa fa-file-pdf-o" aria-hidden="true"></i></a></li>
-									<li class="list-group-item">87. श्री णमोकार मंत्र विधान  <a href="../assets/pdf/Namokar Vidhan.pdf" download><i class="fa fa-file-pdf-o" aria-hidden="true"></i></a></li>
-									
-									<li class="list-group-item">88. देव शास्त्र गुरु एवं अतिशय क्षेत्र पूजन <a href="../assets/pdf/Dev Shastra Guru Poojan.pdf" download><i class="fa fa-file-pdf-o" aria-hidden="true"></i></a></li>
-									<li class="list-group-item">89. श्री  पंचकल्याणक प्रतिष्ठा विधान पूजन  <a href="../assets/pdf/punchkalyanak.pdf" download><i class="fa fa-file-pdf-o" aria-hidden="true"></i></a></li>
-										<li class="list-group-item">90. क्षेत्रपाल विधान   <a href="../assets/pdf/Vishad Kshetrapal Vidhan.pdf" download><i class="fa fa-file-pdf-o" aria-hidden="true"></i></a></li>
-											<li class="list-group-item">91. चौसठ ऋद्धि विधान    <a href="../assets/pdf/64 Ridhi.pdf" download><i class="fa fa-file-pdf-o" aria-hidden="true"></i></a></li>
-									<li class="list-group-item">92.  वृहद  गणधर वलय विधान   <a href="../assets/pdf/Gaddhar Valay.pdf" download><i class="fa fa-file-pdf-o" aria-hidden="true"></i></a></li>
-									<li class="list-group-item">93. श्री ऋषि विधान   <a href="../assets/pdf/Raishi vidhan.pdf" download><i class="fa fa-file-pdf-o" aria-hidden="true"></i></a></li>
-									<li class="list-group-item">94. श्री षट्खण्डागम विधान   <a href="../assets/pdf/Shatkhandagam 6 vidhan.pdf" download><i class="fa fa-file-pdf-o" aria-hidden="true"></i></a></li>
-									<li class="list-group-item">95. श्री नवदेवता पूजन महामण्डल विधान   <a href="../assets/pdf/Shri Navdevta Pujan Mahamandal Vidhan.pdf" download><i class="fa fa-file-pdf-o" aria-hidden="true"></i></a></li>
-									<li class="list-group-item">96. श्री श्रुत स्कन्ध विधान   <a href="../assets/pdf/Sutr skndha vidhan.pdf" download><i class="fa fa-file-pdf-o" aria-hidden="true"></i></a></li>
-									<li class="list-group-item">97. श्री विजय पताका विधान   <a href="../assets/pdf/vijiy pataka vidhan.pdf" download><i class="fa fa-file-pdf-o" aria-hidden="true"></i></a></li>
-									<li class="list-group-item">98. श्री वृहद नन्दीश्वर विधान   <a href="../assets/pdf/vishad  brahd nandisor vidhan 2017.pdf" download><i class="fa fa-file-pdf-o" aria-hidden="true"></i></a></li>
-									<li class="list-group-item">99. श्री विशद भक्तामर महामण्डल विधान   <a href="../assets/pdf/Vishad Bhaktamber Mahamandal Vidhan.pdf" download><i class="fa fa-file-pdf-o" aria-hidden="true"></i></a></li>
-									<li class="list-group-item">100. श्री विशद भक्ति पीयूष विधान   <a href="../assets/pdf/Vishad Bhakti peusha 2011	.pdf" download><i class="fa fa-file-pdf-o" aria-hidden="true"></i></a></li>
-									<li class="list-group-item">101. श्री विशद चूलगिरि विधान   <a href="../assets/pdf/vishad chulgiri vidhan puji.pdf" download><i class="fa fa-file-pdf-o" aria-hidden="true"></i></a></li>
-								
-									<li class="list-group-item">104. श्री विशद स्तोत्र संग्रह हिन्दी काव्य  <a href="../assets/pdf/Vishad Storot sanragh hindhi kawy.pdf" download><i class="fa fa-file-pdf-o" aria-hidden="true"></i></a></li>
-									<li class="list-group-item">105. चालीसा संग्रह <a href="../assets/pdf/Vishad chalesha sangrah.pdf" download><i class="fa fa-file-pdf-o" aria-hidden="true"></i></a></li>
-										<li class="list-group-item">106. श्री चौबीस तीर्थंकर  विधान <a href="../assets/pdf/bda__chobise__vidhan.pdf" download><i class="fa fa-file-pdf-o" aria-hidden="true"></i></a></li>  			
-									
-									
-									
-									<li class="list-group-item">107. विशद आरती संग्रह<a href="../assets/pdf/Vishad Arti sangrah 2011.pdf" download><i class="fa fa-file-pdf-o" aria-hidden="true"></i></a></li>
-									<li class="list-group-item">108. विशद  भजन संग्रह <a href="../assets/pdf/Vishad Bhan Sangrah 5 x 7.5.pdf" download><i class="fa fa-file-pdf-o" aria-hidden="true"></i></a></li>
-									<li class="list-group-item">109. विशद पंचविधान संग्रह  <a href="../assets/pdf/5_vidhan.pdf" download><i class="fa fa-file-pdf-o" aria-hidden="true"></i></a></li>
-									
-									<li class="list-group-item">110. श्री विशद याग मण्डल विधान <a href="../assets/pdf/11.pdf" download><i class="fa fa-file-pdf-o" aria-hidden="true"></i></a></li>
-									<li class="list-group-item">111. सोलहकारण भावना<a href="../assets/pdf/16 karn bhavna.pdf" download><i class="fa fa-file-pdf-o" aria-hidden="true"></i></a></li>
-									<li class="list-group-item">112. मंगलाचरण<a href="../assets/pdf/manglacharan.pdf" download><i class="fa fa-file-pdf-o" aria-hidden="true"></i></a></li>
-									<li class="list-group-item">113. विशद पद्मावती विधान<a href="../assets/pdf/Vishad Padmawati Vidhan.pdf" download><i class="fa fa-file-pdf-o" aria-hidden="true"></i></a></li>
-									<li class="list-group-item">114. वृहद जिनसहस्रनाम विधान <a href="../assets/pdf/shastram.pdf" download><i class="fa fa-file-pdf-o" aria-hidden="true"></i></a></li>
-									<li class="list-group-item">115. श्री रक्षाबंधन विधान<a href="../assets/pdf/Rakshabandhan.pdf" download><i class="fa fa-file-pdf-o" aria-hidden="true"></i></a></li>
-									<li class="list-group-item">116. श्री रक्षाबंधन विधान (लधु) <a href="../assets/pdf/Raksha Bandhan_laghu.pdf" download><i class="fa fa-file-pdf-o" aria-hidden="true"></i></a></li>
-									<li class="list-group-item">117. श्री कल्पद्रुम महामण्डल विधान <a href="../assets/pdf/laghu_Kalpdrum_Vidhan.pdf" download><i class="fa fa-file-pdf-o" aria-hidden="true"></i></a></li>  
-									<li class="list-group-item">118. श्री कूट पूजन विधान  <a href="../assets/pdf/kut_pujan.pdf" download><i class="fa fa-file-pdf-o" aria-hidden="true"></i></a></li>
-									<li class="list-group-item">119. श्री विशद लघु गणधर वलय  विधान <a href="../assets/pdf/Vishad Gandhar Viley 2018.pdf" download><i class="fa fa-file-pdf-o" aria-hidden="true"></i></a></li>
-									<li class="list-group-item">120. श्री जम्बूस्वामी  विधान    <a href="../assets/pdf/Jambhu Swami Pooja Book.pdf" download><i class="fa fa-file-pdf-o" aria-hidden="true"></i></a></li> 
-								
-					
-
-									
-													
-							</ol>
-                              </div>
-                              <div class="col-lg-4" >
-                                
-                                <ol class="list-group" start ="81">
-								
-								
-									
-									<li class="list-group-item">121. श्री विशद दसलक्षण विधान    <a href="../assets/pdf/Daslakshan Vidhan-2018.pdf" download><i class="fa fa-file-pdf-o" aria-hidden="true"></i></a></li> 
-									<li class="list-group-item">122. श्री विशद दसलक्षण विधान  (लधु)    <a href="../assets/pdf/Dashlaxan Vidhan short.pdf" download><i class="fa fa-file-pdf-o" aria-hidden="true"></i></a></li> 
-									
-									
-									<li class="list-group-item">123. सुगन्ध दशमी व्रत पूजा   <a href="../assets/pdf/Sugand Dashmi Vrat Pooja Book Final 2018.pdf" download><i class="fa fa-file-pdf-o" aria-hidden="true"></i></a></li> 
-									
-									
-									<li class="list-group-item">124. श्री स्वंयभू विधान (लधु) <a href="../assets/pdf/Laghu Sawayam bhoo vidhan.pdf" download><i class="fa fa-file-pdf-o" aria-hidden="true"></i></a></li>
-									<li class="list-group-item">125. श्री समवसरण विधान (लघु) <a href="../assets/pdf/Laghu Samosaran vidhan.pdf" download><i class="fa fa-file-pdf-o" aria-hidden="true"></i></a></li>
-									<li class="list-group-item">126. श्री ऋषिमण्डल विधान  <a href="../assets/pdf/Laghu Risimandal Vidhan.pdf" download><i class="fa fa-file-pdf-o" aria-hidden="true"></i></a></li>
-								
-									
-									<li class="list-group-item">127. श्री मृतुन्जय विधान (लघु) <a href="../assets/pdf/Laghu Martunjay vidhan.pdf" download><i class="fa fa-file-pdf-o" aria-hidden="true"></i></a></li>
-									<li class="list-group-item">128. श्री मृतुन्जय विधान  (वृहद ) <a href="../assets/pdf/Mahamatruajay vidhan.pdf" download><i class="fa fa-file-pdf-o" aria-hidden="true"></i></a></li>
-									<li class="list-group-item">129. श्री कल्पद्रुम महामण्डल विधान  <a href="../assets/pdf/laghu Kalpdrum Vidhan.pdf" download><i class="fa fa-file-pdf-o" aria-hidden="true"></i></a></li>
-									<li class="list-group-item">130. श्री चौबीस तीर्थंकर विधान (लघु) <a href="../assets/pdf/Laghu 24 Tharthanker vidhan.pdf" download><i class="fa fa-file-pdf-o" aria-hidden="true"></i></a></li>
-									<li class="list-group-item">131. श्री करम दहन विधान <a href="../assets/pdf/karam dhahn vidhan.pdf" download><i class="fa fa-file-pdf-o" aria-hidden="true"></i></a></li>
-									<li class="list-group-item">132. श्री जिनवाणी संग्रह  <a href="../assets/pdf/Jinvani Sangrh( pujan Path).pdf" download><i class="fa fa-file-pdf-o" aria-hidden="true"></i></a></li>
-									<li class="list-group-item">133. श्री कालसर्प दोष निवारक विधान  <a href="../assets/pdf/kal sarp dos vidhan final.pdf" download><i class="fa fa-file-pdf-o" aria-hidden="true"></i></a></li>
-									
-									<li class="list-group-item">134. श्री गणधर विलय विधान  (लघु ) <a href="../assets/pdf/Gandhar vilay pujan vidhan.pdf" download><i class="fa fa-file-pdf-o" aria-hidden="true"></i></a></li>
-									<li class="list-group-item">135. श्री एकीभाव स्त्रोत्र विधान  <a href="../assets/pdf/Eaki Bhava  stotra Vidhan.pdf" download><i class="fa fa-file-pdf-o" aria-hidden="true"></i></a></li>
-									<li class="list-group-item">136. श्री चौबीस तीर्थंकर चालीसा  <a href="../assets/pdf/chobese chaliesa.pdf" download><i class="fa fa-file-pdf-o" aria-hidden="true"></i></a></li>
-									<li class="list-group-item">137. भक्ति के फूल  <a href="../assets/pdf/Bhakti ki fool.pdf" download><i class="fa fa-file-pdf-o" aria-hidden="true"></i></a></li>
-									<li class="list-group-item">138. श्री बड़ागांव  पूजन एवं कल्याण मंदिर विधान  <a href="../assets/pdf/Bada Gav pujan and klyanmandir vidhan.pdf" download><i class="fa fa-file-pdf-o" aria-hidden="true"></i></a></li>
-									<li class="list-group-item">139. श्री अरिहंत महिमा विधान  <a href="../assets/pdf/Arihat Mahima vidhan.pdf" download><i class="fa fa-file-pdf-o" aria-hidden="true"></i></a></li>
-									<li class="list-group-item">140. श्री अनंत व्रत विधान  <a href="../assets/pdf/Anint virt vidhan.pdf" download><i class="fa fa-file-pdf-o" aria-hidden="true"></i></a></li>
-									<li class="list-group-item">141. श्री अनंतनाथ विधान  <a href="../assets/pdf/aninith.pdf" download><i class="fa fa-file-pdf-o" aria-hidden="true"></i></a></li>
-									<li class="list-group-item">142. श्री धनतेरस पूजन विधान  <a href="../assets/pdf/dhanteras.pdf" download><i class="fa fa-file-pdf-o" aria-hidden="true"></i></a></li>
-									<li class="list-group-item">143. छोटी दिवाली पूजन   <a href="../assets/pdf/choti diwali vidhan.pdf" download><i class="fa fa-file-pdf-o" aria-hidden="true"></i></a></li> 
-									<li class="list-group-item">144. दिवाली पूजन   <a href="../assets/pdf/Diwali.pdf" download><i class="fa fa-file-pdf-o" aria-hidden="true"></i></a></li> 
-									<li class="list-group-item">145. श्री  दिगम्बर जैन साधु परिचय  <a href="../assets/pdf/दिगम्बर जैन साधु परिचय.pdf" download><i class="fa fa-file-pdf-o" aria-hidden="true"></i></a></li>
-									 
-								<li class="list-group-item">146. श्री नंदिशवर विधान (वृहद ) <a href="../assets/pdf/Nadishwar deep vidhan (bda).pdf" download><i class="fa fa-file-pdf-o" aria-hidden="true"></i></a></li>
-									<li class="list-group-item">147. श्री विशद मूक उपदेश -2 <a href="../assets/pdf/Mookupdesh bhag-2.pdf" download><i class="fa fa-file-pdf-o" aria-hidden="true"></i></a></li>
-									<li class="list-group-item">148. श्री विशद मूक उपदेश -3 <a href="../assets/pdf/Mookupdesh bhag-2_2.pdf" download><i class="fa fa-file-pdf-o" aria-hidden="true"></i></a></li>
-									<li class="list-group-item">149. श्री दिगम्बर जैन अतिशय क्षेत्र मोजाम्बाद पूजन आरती चालीसा  <a href="../assets/pdf/Mojmabad pujan.pdf" download><i class="fa fa-file-pdf-o" aria-hidden="true"></i></a></li>
-									<li class="list-group-item">150. श्री विशद याग मंडल विधान  <a href="../assets/pdf/Yag mandal vidhan Singal.pdf" download><i class="fa fa-file-pdf-o" aria-hidden="true"></i></a></li>
-									<li class="list-group-item">151. श्री विराट नगर पार्श्वनाथ विधान  <a href="../assets/pdf/Virat Nagar pujan.pdf" download><i class="fa fa-file-pdf-o" aria-hidden="true"></i></a></li>
-									<li class="list-group-item">152. श्री वासुपूज्य विधान  <a href="../assets/pdf/Vasupujy vidhan.pdf" download><i class="fa fa-file-pdf-o" aria-hidden="true"></i></a></li>
-									<li class="list-group-item">153. श्री व्रत, पूजन, कथा जाप्य संग्रह  <a href="../assets/pdf/Vart Pujn Japya Katha.pdf" download><i class="fa fa-file-pdf-o" aria-hidden="true"></i></a></li>
-									<li class="list-group-item">154. श्री त्रिकाल तीर्थंकर विधान पूजन  <a href="../assets/pdf/Trikal Trinthkar Vidhan.pdf" download><i class="fa fa-file-pdf-o" aria-hidden="true"></i></a></li>
-									<li class="list-group-item">155. श्री तीर्थंकर सिद्धक्षेत्र विधान  <a href="../assets/pdf/Teerthnkar  Shidh chert Vidhan.pdf" download><i class="fa fa-file-pdf-o" aria-hidden="true"></i></a></li>
-									<li class="list-group-item">156. श्री तत्वार्थसूत्र मंडल विधान (लघु ) <a href="../assets/pdf/tatwarth sutra Final.pdf" download><i class="fa fa-file-pdf-o" aria-hidden="true"></i></a></li>
-										<li class="list-group-item">157. श्री सोलहकारण विधान  <a href="../assets/pdf/Solha karan Vidhan.pdf" download><i class="fa fa-file-pdf-o" aria-hidden="true"></i></a></li>
-									<li class="list-group-item">158. श्री सिद्धपरमेष्टि विधान  <a href="../assets/pdf/Sidha Parmesthi Vidhan.pdf" download><i class="fa fa-file-pdf-o" aria-hidden="true"></i></a></li>
-									<li class="list-group-item">159. श्री शनिअरिष्टनिवारक विधान  <a href="../assets/pdf/shani grh.pdf" download><i class="fa fa-file-pdf-o" aria-hidden="true"></i></a></li>
-									<li class="list-group-item">160. श्री सर्वदोष प्रायश्चित्त विधान  <a href="../assets/pdf/Sarvadosh Prayshit vidgan (Laghu).pdf" download><i class="fa fa-file-pdf-o" aria-hidden="true"></i></a></li>
-									
-									<li class="list-group-item">161. श्री विशद श्रमण चर्या  <a href="../assets/pdf/Vishad Shrman Charya.pdf" download><i class="fa fa-file-pdf-o" aria-hidden="true"></i></a></li>
-									<li class="list-group-item">162. श्री सिद्धचर्क विधान <a href="../assets/pdf/visad sidchakrya vidhan.pdf" download><i class="fa fa-file-pdf-o" aria-hidden="true"></i></a></li>
-									<li class="list-group-item">163. श्री सिद्धचर्क विधान -2 <a href="../assets/pdf/visad sidchakrya vidhan 28=7-2021.pdf" download><i class="fa fa-file-pdf-o" aria-hidden="true"></i></a></li>
-									<li class="list-group-item">164. सोलहकारण भावना <a href="../assets/pdf/solah karan.pdf" download><i class="fa fa-file-pdf-o" aria-hidden="true"></i></a></li>
-								
-									
-										<li class="list-group-item">165. श्री सिद्धचक्र विधान पूजा (लघु) <a href="../assets/pdf/visad sidchakrya vidhan 28=7-2021.pdf" download><i class="fa fa-file-pdf-o" aria-hidden="true"></i></a></li>
-									<li class="list-group-item">166.  संगीत प्रसून (भजन) <a href="../assets/pdf/Document 17.pdf" download><i class="fa fa-file-pdf-o" aria-hidden="true"></i></a></li>
-									
-									
-									<li class="list-group-item">167. श्री आदिनाथ विधान <a href="../assets/pdf/Adinath Vidhan 2022.pdf" download><i class="fa fa-file-pdf-o" aria-hidden="true"></i></a></li>
-									<li class="list-group-item">168. श्री बाहुबली विधान <a href="../assets/pdf/Shri Bahubali Vidhan (Hindi-Sanskrit).pdf" download><i class="fa fa-file-pdf-o" aria-hidden="true"></i></a></li>
-									<li class="list-group-item">169.  श्री भरतेश्वर स्वामी मंडल विधान  <a href="../assets/pdf/bhartshawar swami.pdf" download><i class="fa fa-file-pdf-o" aria-hidden="true"></i></a></li>
-									<li class="list-group-item">170. श्री स्वयम्भू स्तोत्र <a href="../assets/pdf/स्वयम्भू स्तोत्र.pdf" download><i class="fa fa-file-pdf-o" aria-hidden="true"></i></a></li>
-									<li class="list-group-item">171. दीप अर्चना -1  <a href="../assets/pdf/deep archna part-1.pdf" download><i class="fa fa-file-pdf-o" aria-hidden="true"></i></a></li>
-									<li class="list-group-item">172. दीप अर्चना -2<a href="../assets/pdf/deep archna part-2.pdf" download><i class="fa fa-file-pdf-o" aria-hidden="true"></i></a></li>
-									<li class="list-group-item">173. भजन  - 2<a href="../assets/pdf/bhajan -2.pdf" download><i class="fa fa-file-pdf-o" aria-hidden="true"></i></a></li>
-									<li class="list-group-item">174. श्री पंचमेरु विधान  <a href="../assets/pdf/Punch Meru Vidhan.pdf" download><i class="fa fa-file-pdf-o" aria-hidden="true"></i></a></li>
-									<li class="list-group-item">175. श्री पंचमेरु विधान  <a href="../assets/pdf/Punch Meru Vidhan-5.pdf" download><i class="fa fa-file-pdf-o" aria-hidden="true"></i></a></li>
-									<li class="list-group-item">176. श्री स्वर्ग लोक जिनालय विधान <a href="../assets/pdf/Swarg Lok Jinalya Vidhan.pdf" download><i class="fa fa-file-pdf-o" aria-hidden="true"></i></a></li>
-									<li class="list-group-item">177. श्री शान्ति भक्ति आराधना  <a href="../assets/pdf/Bhakti Aradhana Final Book 2021-1.pdf" download><i class="fa fa-file-pdf-o" aria-hidden="true"></i></a></li>
-									<li class="list-group-item">178. श्री तत्वार्थ सूत्र विधान <a href="../assets/pdf/TATVARTH FILE-2021.pdf" download><i class="fa fa-file-pdf-o" aria-hidden="true"></i></a></li>
-									<li class="list-group-item">179. श्री रतनत्रय विधान     <a href="../assets/pdf/ratantray.pdf" download><i class="fa fa-file-pdf-o" aria-hidden="true"></i></a></li>
-									
-									
-									
-									<li class="list-group-item">181. श्री साप्ताहिक विधान (लघु ) <a href="../assets/pdf/9 Vidhan - 2023.pdf" download><i class="fa fa-file-pdf-o" aria-hidden="true"></i></a></li>
-									<li class="list-group-item">182. श्री चौबीस तीर्थंकर विधान (लघु )<a href="../assets/pdf/24 Tithankar Vidhan Laghu-1.pdf" download><i class="fa fa-file-pdf-o" aria-hidden="true"></i></a></li>
-									<li class="list-group-item">183. श्री चौसठ रिद्धि विधान -2 <a href="../assets/pdf/64 Ridhi-2.pdf" download><i class="fa fa-file-pdf-o" aria-hidden="true"></i></a></li>
-									<li class="list-group-item">184. श्री सम्मेद शिखर विधान   <a href="../assets/pdf/101.pdf" download><i class="fa fa-file-pdf-o" aria-hidden="true"></i></a></li>
-									<li class="list-group-item">185. श्री सम्मेद शिखर कूट पूजन विधान  <a href="../assets/pdf/kut pujan final.pdf" download><i class="fa fa-file-pdf-o" aria-hidden="true"></i></a></li>
-																		
-									<li class="list-group-item">187. श्री आचार्य बिम्ब विधान <a href="../assets/pdf/Aacharya Bimb Vidhan.pdf" download><i class="fa fa-file-pdf-o" aria-hidden="true"></i></a></li>
-									<li class="list-group-item">188. आरती संग्रह   <a href="../assets/pdf/Aarti Sanghra.pdf" download><i class="fa fa-file-pdf-o" aria-hidden="true"></i></a></li>
-									
-									
-									<li class="list-group-item">189. अमृत सिद्धि व्रत <a href="../assets/pdf/amrit siddhi (1-2-23).pdf" download><i class="fa fa-file-pdf-o" aria-hidden="true"></i></a></li>
-									<li class="list-group-item">190. श्री गणधर विलय विधान <a href="../assets/pdf/Gandhar Vilya Poojan Vidhan.pdf" download><i class="fa fa-file-pdf-o" aria-hidden="true"></i></a></li>
-									<li class="list-group-item">191. जिंदगी क्या है ? <a href="../assets/pdf/jindagi (21-2-23).pdf" download><i class="fa fa-file-pdf-o" aria-hidden="true"></i></a></li>
-									<li class="list-group-item">192. श्री कल्पद्रुम महामण्डल विधान  <a href="../assets/pdf/laghu Kalpdrum Vidhan-2.pdf" download><i class="fa fa-file-pdf-o" aria-hidden="true"></i></a></li>
-									
-									
-									<li class="list-group-item">193. श्री जिन सहस्त्रनाम , सम्मेद शिखर कूट पूजन, श्री भक्तामर विधान, कल्याण मंदिर स्त्रोत्र विधान <a href="../assets/pdf/1008 Mantra Jinsahstranaam vidhan 2021 last.pdf" download><i class="fa fa-file-pdf-o" aria-hidden="true"></i></a></li>
-									<li class="list-group-item">194. श्रीजिन सहस्त्रनाम विधान (लघु )<a href="../assets/pdf/Laghu Sehesranam.pdf" download><i class="fa fa-file-pdf-o" aria-hidden="true"></i></a></li>
-									<li class="list-group-item">195. श्री मुनि सुव्रतनाथ विधान  <a href="../assets/pdf/Munisuvrat Vidhan 2022.pdf" download><i class="fa fa-file-pdf-o" aria-hidden="true"></i></a></li>
-									<li class="list-group-item">196. श्री पुष्पदन्त विधान <a href="../assets/pdf/Pushpdanth Vidhan 2022.pdf" download><i class="fa fa-file-pdf-o" aria-hidden="true"></i></a></li>
-									<li class="list-group-item">197. श्री शांतिनाथ विधान <a href="../assets/pdf/Shantinath Vidhan 2023-2.pdf" download><i class="fa fa-file-pdf-o" aria-hidden="true"></i></a></li>
-									
-									
-									<li class="list-group-item">198. श्री नंनिदशवर विधान (संस्कृत) <a href="../assets/pdf/nandeswer (6-1-23).pdf" download><i class="fa fa-file-pdf-o" aria-hidden="true"></i></a></li>
-									<li class="list-group-item">199. श्री २४ तीर्थंकर निर्वाण भक्ति विधान  <a href="../assets/pdf/Nirwan Kshetra-1.pdf" download><i class="fa fa-file-pdf-o" aria-hidden="true"></i></a></li>
-									<li class="list-group-item">200. श्री विशद सन्धया वंदन<a href="../assets/pdf/Sandhya Vandan 2022-1.pdf" download><i class="fa fa-file-pdf-o" aria-hidden="true"></i></a></li>
-									
-									<li class="list-group-item">201. श्री णमोकार विधान   <a href="../assets/pdf/Shri Namokar Vidhan 2022-5.pdf" download><i class="fa fa-file-pdf-o" aria-hidden="true"></i></a></li>
-									<li class="list-group-item">202. श्री तत्वार्थ सूत्र व्रत विधि  <a href="../assets/pdf/tatwarth book 19-1-23.pdf" download><i class="fa fa-file-pdf-o" aria-hidden="true"></i></a></li>
-									<li class="list-group-item">203. श्री विमल सागर विधान <a href="../assets/pdf/Vimal Sagar Vidhan.pdf" download><i class="fa fa-file-pdf-o" aria-hidden="true"></i></a></li>
-									<li class="list-group-item">204. याग मंडल विधान <a href="../assets/pdf/yagyamandal final (27-3-23).pdf" download><i class="fa fa-file-pdf-o" aria-hidden="true"></i></a></li>
-									
-								
-									<li class="list-group-item">205. लघु प्रतिक्रमण  <a href="../assets/pdf/laghu pratikaranam.pdf" download><i class="fa fa-file-pdf-o" aria-hidden="true"></i></a></li>
-									<li class="list-group-item">206. श्री विशद वर्णमाला <a href="../assets/pdf/vishad varnmala.pdf" download><i class="fa fa-file-pdf-o" aria-hidden="true"></i></a></li>
-									<li class="list-group-item">207. श्री विशद वर्णमाला <a href="../assets/pdf/yogsar book.pdf" download><i class="fa fa-file-pdf-o" aria-hidden="true"></i></a></li>
-									<li class="list-group-item">208. श्री बड़ा चौबीसी विधान <a href="../assets/pdf/bda  chobise  vidhan.pdf" download><i class="fa fa-file-pdf-o" aria-hidden="true"></i></a></li>
-									<li class="list-group-item">209. श्री निर्वाण भक्ति विधान <a href="../assets/pdf/Nirvan Bhadti vidhan 1.pdf" download><i class="fa fa-file-pdf-o" aria-hidden="true"></i></a></li>
-									<li class="list-group-item">210. श्री विशद मुक्तावली <a href="../assets/pdf/Vishad Muktavali.pdf" download><i class="fa fa-file-pdf-o" aria-hidden="true"></i></a></li>
-									<li class="list-group-item">211. श्री पारसनाथ विधान <a href="../assets/pdf/cha---- paras nath vidhan.pdf" download><i class="fa fa-file-pdf-o" aria-hidden="true"></i></a></li>
-									<li class="list-group-item">212. श्री जिन गुण सम्पत्ति विधान <a href="../assets/pdf/Jin Gun Sampati Vidhan.pdf" download><i class="fa fa-file-pdf-o" aria-hidden="true"></i></a></li>
-									<li class="list-group-item">213. श्री वागन्हारु पार्श्वनाथ विधान <a href="../assets/pdf/Vaganharu Parashnath vidhan.pdf" download><i class="fa fa-file-pdf-o" aria-hidden="true"></i></a></li>
-									<li class="list-group-item">214. श्री नेमिनाथ विधान <a href="../assets/pdf/Neminath Vidhan 2023.pdf" download><i class="fa fa-file-pdf-o" aria-hidden="true"></i></a></li>
-									<li class="list-group-item">215. श्री शांतिनाथ पंचकल्याण विधान<a href="../assets/pdf/Shantinath Panchkalyan Vidhan 2023-1.pdf" download><i class="fa fa-file-pdf-o" aria-hidden="true"></i></a></li> 
-									<li class="list-group-item">216. श्री नवदेवता पूजन महामंडल विधान (लघु)<a href="../assets/pdf/Chota Shri Navdevta Pujan Mahamandal Vidhan.pdf" download><i class="fa fa-file-pdf-o" aria-hidden="true"></i></a></li> 
-									<li class="list-group-item">217. श्री पार्श्वनाथ विधान<a href="../assets/pdf/Parasnath Vidhan Vigh..pdf" download><i class="fa fa-file-pdf-o" aria-hidden="true"></i></a></li> 
-									 
-								
-								
-									<li class="list-group-item">218. श्री 5 तीर्थ  विधान<a href="../assets/pdf/5 Teerth.pdf" download><i class="fa fa-file-pdf-o" aria-hidden="true"></i></a></li>
-									<li class="list-group-item">219. श्री अक्षय व्रत सौभाग्य दशमी  विधान<a href="../assets/pdf/Akshay varat sobhagya dashmi.pdf" download><i class="fa fa-file-pdf-o" aria-hidden="true"></i></a></li>
-									<li class="list-group-item">220. छोटा श्री नवदेवता पूजन महामंडल विधान <a href="../assets/pdf/Chota Shri Navdevta Pujan Mahamandal Vidhan.pdf" download><i class="fa fa-file-pdf-o" aria-hidden="true"></i></a></li>
-									<li class="list-group-item">221. श्री विशद पंचागम 1 <a href="../assets/pdf/Vishad Panchagam 1.pdf" download><i class="fa fa-file-pdf-o" aria-hidden="true"></i></a></li>
-							
-									<li class="list-group-item">222. श्री योगसार <a href="../assets/pdf/yogsar book.pdf" download><i class="fa fa-file-pdf-o" aria-hidden="true"></i></a></li>
-									<li class="list-group-item">223. भक्ति की महिमा <a href="../assets/pdf/bhakti ki mahima.pdf" download><i class="fa fa-file-pdf-o" aria-hidden="true"></i></a></li>
-<li class="list-group-item">224. श्री आदिनाथ विधान <a href="../assets/pdf/shri aadinath vidhan.pdf" download><i class="fa fa-file-pdf-o" aria-hidden="true"></i></a></li>
-<li class="list-group-item">225. श्री भक्ताम्बर विधान <a href="../assets/pdf/shri bhaktambar vidhan.pdf" download><i class="fa fa-file-pdf-o" aria-hidden="true"></i></a></li>
-<li class="list-group-item">226. श्री चन्द्र प्रभु विधान <a href="../assets/pdf/shri chander prabhu vidhan.pdf" download><i class="fa fa-file-pdf-o" aria-hidden="true"></i></a></li>
-<li class="list-group-item">227. श्री चौबीस तीर्थंकर विधान <a href="../assets/pdf/shri chaubis thirthankar vidhan.pdf" download><i class="fa fa-file-pdf-o" aria-hidden="true"></i></a></li>
-<li class="list-group-item">228. श्री चौसठ ऋद्धि विधान <a href="../assets/pdf/shri chausath ridhi vidhan.pdf" download><i class="fa fa-file-pdf-o" aria-hidden="true"></i></a></li>
-<li class="list-group-item">229. श्री कल्याण मंदिर स्त्रोत विधान <a href="../assets/pdf/shri kalyan mandir strotar vidhan.pdf" download><i class="fa fa-file-pdf-o" aria-hidden="true"></i></a></li>
-<li class="list-group-item">230. श्री लक्ष्मंगल पूजन विधान <a href="../assets/pdf/shri lakmangal pujan vidhan.pdf" download><i class="fa fa-file-pdf-o" aria-hidden="true"></i></a></li>
-<li class="list-group-item">231. श्री महावीर स्वामी पूजन विधान <a href="../assets/pdf/shri mahavir swami pujan vidhan.pdf" download><i class="fa fa-file-pdf-o" aria-hidden="true"></i></a></li>
-<li class="list-group-item">232. श्री मल्लिनाथ विधान <a href="../assets/pdf/shri mallinath vidhan.pdf" download><i class="fa fa-file-pdf-o" aria-hidden="true"></i></a></li>
-<li class="list-group-item">233. श्री मुनिसुव्रत विधान <a href="../assets/pdf/shri munisuvrat vidhan.pdf" download><i class="fa fa-file-pdf-o" aria-hidden="true"></i></a></li>
-<li class="list-group-item">234. श्री नामिनाथ विधान <a href="../assets/pdf/shri naminath vidhan.pdf" download><i class="fa fa-file-pdf-o" aria-hidden="true"></i></a></li>
-<li class="list-group-item">235. श्री नमोकार मंत्र विधान (लघु) <a href="../assets/pdf/shri namokar mantra vidhan laghu.pdf" download><i class="fa fa-file-pdf-o" aria-hidden="true"></i></a></li>
-<li class="list-group-item">236. श्री साप्ताहिक विधान <a href="../assets/pdf/shri saptahik vidhan.pdf" download><i class="fa fa-file-pdf-o" aria-hidden="true"></i></a></li>
-<li class="list-group-item">237. श्री सिद्ध परमेष्ठी विधान <a href="../assets/pdf/shri sidh parmeshthi vidhan.pdf" download><i class="fa fa-file-pdf-o" aria-hidden="true"></i></a></li>
-<li class="list-group-item">238. श्री वासुपूज्य विधान <a href="../assets/pdf/shri vasu pujay vidhan.pdf" download><i class="fa fa-file-pdf-o" aria-hidden="true"></i></a></li>
-<li class="list-group-item">239. श्री विशद महाअर्चना  विधान <a href="../assets/pdf/Vishad maarchna Vidhan.pdf" download><i class="fa fa-file-pdf-o" aria-hidden="true"></i></a></li>
-<li class="list-group-item">240. श्री विशद अभिनव कल्पतरु महामण्डल विधान <a href="../assets/pdf/ABHINOV KLPTRU VIDHAN 2024.pdf" download><i class="fa fa-file-pdf-o" aria-hidden="true"></i></a></li>
-
-<li class="list-group-item">241. श्री सिद्ध चक्र विधान <a href="../assets/pdf/LAGHU SHIDHA CHARK VIDHAN 2024 FINAL.pdf" download><i class="fa fa-file-pdf-o" aria-hidden="true"></i></a></li>
-<li class="list-group-item">242. श्री विशद विषापाहार  विधान <a href="../assets/pdf/vishapahar-2.pdf" download><i class="fa fa-file-pdf-o" aria-hidden="true"></i></a></li>
-<li class="list-group-item">243. श्री विशद द्रोणगिरि आराधना  <a href="../assets/pdf/DORNGIRI VIDHAN 2024 FINAL.pdf" download><i class="fa fa-file-pdf-o" aria-hidden="true"></i></a></li>
-<li class="list-group-item">244.. श्री विशद मुनिसुब्रत विधान  <a href="../assets/pdf/Munisobirt Vidhan 2019.pdf" download><i class="fa fa-file-pdf-o" aria-hidden="true"></i></a></li>
-
-<li class="list-group-item">245. १००८ मन्त्र जिनसहस्रनाम विधान २०२४ <a href="../assets/pdf/1008 Mantra Jinsahstranaam vidhan 2024 Final1.pdf" download><i class="fa fa-file-pdf-o" aria-hidden="true"></i></a></li>
-<li class="list-group-item">246. भक्ति आराधना पुस्तक २०२३ <a href="../assets/pdf/Bhakti Aradhana Final Book 2023.pdf" download><i class="fa fa-file-pdf-o" aria-hidden="true"></i></a></li>
-<li class="list-group-item">247. जरा सोचो तो <a href="../assets/pdf/jara socho to.pdf" download><i class="fa fa-file-pdf-o" aria-hidden="true"></i></a></li>
-<li class="list-group-item">248. लघु सिद्ध चक्र विधान २०२४ <a href="../assets/pdf/LAGHU SHIDHA CHARK VIDHAN 2024 FINAL.pdf" download><i class="fa fa-file-pdf-o" aria-hidden="true"></i></a></li>
-<li class="list-group-item">249. सामोसारण विधान २०२५ <a href="../assets/pdf/PDF SAMOSARN VIDHAN FINAL 2025.pdf" download><i class="fa fa-file-pdf-o" aria-hidden="true"></i></a></li>
-<li class="list-group-item">250. श्री आदिनाथ विधान लघु <a href="../assets/pdf/shri aadinath vidhan laghu.pdf" download><i class="fa fa-file-pdf-o" aria-hidden="true"></i></a></li>
-<li class="list-group-item">251. श्री आकाश पंचमी विधान <a href="../assets/pdf/shri aakash punchmi vidhan.pdf" download><i class="fa fa-file-pdf-o" aria-hidden="true"></i></a></li>
-<li class="list-group-item">252. श्री बृहत्त जैन शब्दावरण <a href="../assets/pdf/shri brahat jain shabdavaran.pdf" download><i class="fa fa-file-pdf-o" aria-hidden="true"></i></a></li>
-<li class="list-group-item">253. श्री चन्द्रप्रभु विधान लघु <a href="../assets/pdf/shri chandprabhu vidhan laghu.pdf" download><i class="fa fa-file-pdf-o" aria-hidden="true"></i></a></li>
-<li class="list-group-item">254. श्री चौबीसी विधान लघु <a href="../assets/pdf/shri chaubisi vidhan laghu.pdf" download><i class="fa fa-file-pdf-o" aria-hidden="true"></i></a></li>
-<li class="list-group-item">255. श्री चौंसठ ऋद्धि विधान लघु <a href="../assets/pdf/shri chausath ridhi vidhan laghu.pdf" download><i class="fa fa-file-pdf-o" aria-hidden="true"></i></a></li>
-<li class="list-group-item">256. श्री लोक मंगल पूज्य विधान <a href="../assets/pdf/shri lok mangal pujya vidhan.pdf" download><i class="fa fa-file-pdf-o" aria-hidden="true"></i></a></li>
-<li class="list-group-item">257. श्री लघु नवकार विधान <a href="../assets/pdf/shri lugh naomkar vidhan.pdf" download><i class="fa fa-file-pdf-o" aria-hidden="true"></i></a></li>
-<li class="list-group-item">258. श्री महावीर विधान लघु <a href="../assets/pdf/shri mahavir vidhan laghu.pdf" download><i class="fa fa-file-pdf-o" aria-hidden="true"></i></a></li>
-<li class="list-group-item">259. श्री मुनिसुव्रत विधान लघु <a href="../assets/pdf/shri munisuvrat vidhan laghu.pdf" download><i class="fa fa-file-pdf-o" aria-hidden="true"></i></a></li>
-<li class="list-group-item">260. श्री नामीनाथ विधान लघु <a href="../assets/pdf/shri naminath vidhan laghu.pdf" download><i class="fa fa-file-pdf-o" aria-hidden="true"></i></a></li>
-<li class="list-group-item">261. श्री पद्म प्रभु विधान लघु <a href="../assets/pdf/shri padam prabhu vidhan laghu.pdf" download><i class="fa fa-file-pdf-o" aria-hidden="true"></i></a></li>
-<li class="list-group-item">262. श्री पुष्पदंत विधान लघु <a href="../assets/pdf/shri pushpdant vidhan laghu.pdf" download><i class="fa fa-file-pdf-o" aria-hidden="true"></i></a></li>
-<li class="list-group-item">263. श्री सिद्ध परमेष्ठी विधान लघु <a href="../assets/pdf/shri sidh parmesthi vidhan laghu.pdf" download><i class="fa fa-file-pdf-o" aria-hidden="true"></i></a></li>
-<li class="list-group-item">264. श्री वासुपूज्य विधान लघु <a href="../assets/pdf/shri vaasupujay vidhan laghu.pdf" download><i class="fa fa-file-pdf-o" aria-hidden="true"></i></a></li>
-<li class="list-group-item">265. श्री विराग सागर जी महाराज <a href="../assets/pdf/shri virag sagar ji maharaj.pdf" download><i class="fa fa-file-pdf-o" aria-hidden="true"></i></a></li>
-<li class="list-group-item">266. श्री विशद चालीसा संग्रह <a href="../assets/pdf/shri vishad chalisa sangrah.pdf" download><i class="fa fa-file-pdf-o" aria-hidden="true"></i></a></li>
-<li class="list-group-item">267. श्री विषपाहर स्तोत्र<a href="../assets/pdf/vishapahar pdf.pdf" download><i class="fa fa-file-pdf-o" aria-hidden="true"></i></a></li>
-<li class="list-group-item">268. सुभाषित श्लोक<a href="../assets/pdf/Shubhashis pdf.pdf" download><i class="fa fa-file-pdf-o" aria-hidden="true"></i></a>  </li>
-<li class="list-group-item">269. रोट तीज व्रत पूजा <a href="../assets/pdf/Rot Teej Vrat Pooja.pdf" download><i class="fa fa-file-pdf-o" aria-hidden="true"></i></a></li>
-<li class="list-group-item">270. साप्ताहिक विधान - 2023 <a href="../assets/pdf/saptahik vidhan - 2023.pdf" download><i class="fa fa-file-pdf-o" aria-hidden="true"></i></a></li>
-<li class="list-group-item">271. वीतराग शासन जयंती हो विधान  <a href="../assets/pdf/vitrag jayant vidhan.pdf" download><i class="fa fa-file-pdf-o" aria-hidden="true"></i></a></li>
-
-
-							<br/>									
-								
-								</ol> 
-								
-								</div>
-							  <div class="col-lg-4" >
-								<ol class="list-group" start ="161">
-									<img class="img-fluid" src="../assets/img/standing.jpg">
-									
-									<div class="devider"></div>
-									  <h3 class="m-0 text-center">ग्रंथ</h3>
-									  <div class="devider"></div>
-									
-								<li class="list-group-item">1. श्री विशद अनुप्रेक्षा(सोलहकारण भावना ग्रंथ)<a href="../assets/pdf/Vishad Anupreksha book-2.pdf" download><i class="fa fa-file-pdf-o" aria-hidden="true"></i></a></li>
-								<li class="list-group-item">2. श्री विषद पंचागम्<a href="../assets/pdf/Vishad Panchagam 1.pdf" download><i class="fa fa-file-pdf-o" aria-hidden="true"></i></a></li> 
-								<li class="list-group-item">3. श्री विशद संग्रह <a href="../assets/pdf/Vishad Sangrah pdf.pdf" download><i class="fa fa-file-pdf-o" aria-hidden="true"></i></a></li>					
-								<li class="list-group-item">4. आगम के लाल छोटेलाल <a href="../assets/pdf/aagm ki lal.pdf" download><i class="fa fa-file-pdf-o" aria-hidden="true"></i></a></li>
-								<li class="list-group-item">5. प्रवचन पर्व    <a href="../assets/pdf/parv parvachan.pdf" download><i class="fa fa-file-pdf-o" aria-hidden="true"></i></a></li>
-								<li class="list-group-item">6. विशद  ज्ञान ज्योति <a href="../assets/pdf/Vishad Gyan Joyti Nov. Dec.pdf" download><i class="fa fa-file-pdf-o" aria-hidden="true"></i></a></li>
-								<li class="list-group-item">7. श्री मोक्ष पथगामी (जीवनी )   <a href="../assets/pdf/Mochk Pathgami (Jivni).pdf" download><i class="fa fa-file-pdf-o" aria-hidden="true"></i></a></li>
-								<li class="list-group-item">8. श्री पदम् पुराण (राम चरित्र) <a href="../assets/pdf/पदम् पुराण (राम चरित्र).pdf" download><i class="fa fa-file-pdf-o" aria-hidden="true"></i></a></li>
-								<li class="list-group-item">9. श्री तीर्थंकर वर्धमान,विद्यानंदजी  <a href="../assets/pdf/तीर्थंकर वर्धमान,विद्यानंदजी.pdf" download><i class="fa fa-file-pdf-o" aria-hidden="true"></i></a></li>
-								<li class="list-group-item">10. धर्म-के-दश-लक्षण <a href="../assets/pdf/धर्म-के-दश-लक्षण.pdf" download><i class="fa fa-file-pdf-o" aria-hidden="true"></i></a></li>
-								<li class="list-group-item">11. अढ़ाई द्वीप चित्र   <a href="../assets/pdf/Adhai Dwip map.pdf" download><i class="fa fa-file-pdf-o" aria-hidden="true"></i></a></li>
-								<li class="list-group-item">12. अधो लोक चित्र  <a href="../assets/pdf/AdhoLoke map.pdf" download><i class="fa fa-file-pdf-o" aria-hidden="true"></i></a></li>
-								<li class="list-group-item">13. जम्बूद्वीप चित्र  <a href="../assets/pdf/Jambudwip map.pdf" download><i class="fa fa-file-pdf-o" aria-hidden="true"></i></a></li>
-									
-									</ol>
-									
-								</div>
-						
-                          </div>
-                        </div>
-                    </div>
-                </section>
-
-            </div><!-- Left Panel end -->
-          
-             
-        </div>
-    </div>
-
-
-    <!-- Footer -->
-    <footer class="py-4">
-        <div class="container">
-		<span class="developed-by">
-                    Designed by Pankaj Jain and Mukesh kumar (9911535969)
-                </span>
-            <ul class="footer-nav">
-                <li class="nav-item active">
-                    <a class="nav-link" href="../index.html">जीवनी</a>
-                </li>
-                <li>|</li>
-                <li class="nav-item">
-                    <a class="nav-link" href="../pages/sangh.html">संघ</a>
-                </li>
-                <li>|</li>
-                <li class="nav-item">
-                    <a class="nav-link" href="../pages/sahitya.html">ग्रंथ</a>
-                </li>
-                <li>|</li>
-				<li class="nav-item">
-                    <a class="nav-link" href="../pages/download.html">विधान</a>
-                </li>
-                <li>|</li>
-								<li class="nav-item">
-                        <a class="nav-link" href="pages/video.html">वीडिओ</a>
-                    </li>
-                <li>|</li>
-
-                <li class="nav-item">
-                    <a class="nav-link" href="../pages/gallery.html">गैलरी</a>
-                </li>
-                <li>|</li>
-                <li class="nav-item">
-                    <a class="nav-link" href="../pages/contact-us.html">हमसे संपर्क करे</a>
-                </li>
-            </ul>
-            <p class="m-0 text-center text-white">Copyright &copy; Vishadsagar.com 2017</p>
-            <!--<span class="developed-by">
+					<li class="nav-item">
+						<a class="nav-link" href="../pages/gallery.html">गैलरी</a>
+					</li>
+					<li>|</li>
+					<li class="nav-item">
+						<a class="nav-link" href="../pages/contact-us.html">हमसे संपर्क करे</a>
+					</li>
+				</ul>
+				<p class="m-0 text-center text-white">Copyright &copy; Vishadsagar.com 2017</p>
+				<!--<span class="developed-by">
                 Design and Developed by <a href="http://www.uidevexpert.com/" target="_blank"> Mukesh</a>
             </span>-->
-        </div>
-        <!-- /.container -->
-    </footer>
-</div>
-    <!-- Bootstrap core JavaScript -->
-    <script src="../vendor/jquery/jquery.min.js"></script>
-    <script src="../vendor/popper/popper.min.js"></script>
-    <script src="../vendor/bootstrap/js/bootstrap.min.js"></script>
+			</div>
+			<!-- /.container -->
+		</footer>
+	</div>
+	<!-- Bootstrap core JavaScript -->
+	<script src="../vendor/jquery/jquery.min.js"></script>
+	<script src="../vendor/popper/popper.min.js"></script>
+	<script src="../vendor/bootstrap/js/bootstrap.min.js"></script>
 
-    <script src="../vendor/jquery/jquery.marquee.min.js" type="text/javascript"></script>
-    <script src="../assets/js/main.js"></script>
+	<script src="../vendor/jquery/jquery.marquee.min.js" type="text/javascript"></script>
+	<script src="../assets/js/main.js"></script>
 
 </body>
 
 </html>
-
-
-
